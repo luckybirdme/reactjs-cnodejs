@@ -60,7 +60,7 @@ const postCreateTopic = (topic) => {
 			if (json.success) {
 				status.create = true;	
 	        }else{
-	        	status.error = 'Something mistake'
+	        	status.error = json.error_msg
 	        }
 			
 			status.doing = false

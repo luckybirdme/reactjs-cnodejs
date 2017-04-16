@@ -1,5 +1,5 @@
 # reactjs-cnodejs
-本项目是基于 Cnodejs 的 api，采用 ReactJS 前端框架，借助 webpack 开发的单页面web应用，在线 [Demo](https://github.com/luckybirdme/reactjs-cnodejs)
+本项目是基于 Cnodejs 的 api，采用 ReactJS 前端框架，借助 webpack 开发的单页面web应用，在线 [Demo](http://reactjs.luckybird.me)
 
 **功能简介**
 
