@@ -60,7 +60,7 @@ class head extends React.Component {
 
 	logout = () => {
 		this.props.clearUser()
-		this.props.history.goBack()
+		this.props.history.push('/')
 	}
 
 	render(){

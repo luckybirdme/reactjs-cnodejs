@@ -29,7 +29,10 @@ export default class CreateForm extends React.Component {
       title:'',
       content:''
     }
+    this.props.clearCreate()
+    
   }
+
 
   handleChangeTab = (event, index, value) => {
     this.setState({tab: value});
@@ -56,11 +59,18 @@ export default class CreateForm extends React.Component {
       content:this.state.content
     }
 
-    console.log(topic)
     this.props.createTopic(topic)
   }
 
-
+  shouldComponentUpdate(nextProps){
+    let shouldUpdate = true
+    let create = nextProps.status.create
+    if(create){
+      shouldUpdate = false 
+      this.props.history.push('/')
+    }
+    return shouldUpdate
+  }
 
 
   render(){
@@ -72,15 +82,6 @@ export default class CreateForm extends React.Component {
     let doing = status.doing
     if(doing){
       loadStatus = 'loading'
-    }
-
-    let create = status.create
-    if(create){
-      const { from } = this.props.location.state || { from: { pathname: '/' } }
-        
-      return (
-          <Redirect to={from}/>
-      )
     }
 
 

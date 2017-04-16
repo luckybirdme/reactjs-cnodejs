@@ -14,14 +14,16 @@ import InfiniteScroll from 'react-infinite-scroller'
 export default class BodyPage extends React.Component {
 	constructor(props) {
 		super(props);
-		this.state = {
-			shouldUpdate:true
-		}
 	}
 
 
 	showTopic = (page,tab) => {
 		this.props.showTopic(tab)
+		window.scrollTo(0, 0)
+	}
+
+	componentDidMount(){
+		this.showTopic()
 	}
 
 
@@ -35,20 +37,17 @@ export default class BodyPage extends React.Component {
 				let oldTab = search.tab
 				if(tab && oldTab != tab){
 					this.showTopic(0,tab)
-					window.scrollTo(0, 0)
 					shouldUpdate = false
 				}
 			}
 		}else{
 			this.showTopic()
-			window.scrollTo(0, 0)
 			shouldUpdate = false
 		}
-		return true;
+		return shouldUpdate
 	}
 
 	render(){
-
 
 		let done = this.props.status.done
 

@@ -59,6 +59,7 @@ const postCreateTopic = (topic) => {
 		}).then(json => {
 			if (json.success) {
 				status.create = true;	
+				status.topic.search.page = 1
 	        }else{
 	        	status.error = json.error_msg
 	        }
@@ -76,6 +77,19 @@ const postCreateTopic = (topic) => {
 	}
 }
 
+const defaultCreate = (topic) => {
+	return (dispatch,getState) => {	
+
+		let state = getState()
+		let status = state.status
+
+		status.create = false
+		status.error = ''
+		dispatch(doneStatus(status))
+		
+
+	}
+}
 const mapStateToProps = (state) => {
   return {
     user: state.user,
@@ -87,6 +101,9 @@ const mapDispatchToProps = (dispatch) => {
   return {
     createTopic: (topic) => {
 		dispatch(postCreateTopic(topic))	
+    },
+    clearCreate:() => {
+    	dispatch(defaultCreate())
     }
   }
 }

@@ -25,7 +25,6 @@ const getTopicDetail = (id) => {
 			return;
 		}
 
-		console.log(id)
 		let url = "https://cnodejs.org/api/v1/topic/"+id;
 
 		status.doing = true
@@ -76,7 +75,6 @@ const postReplyTopic = (content) => {
 		let detail = status.detail
 		let id = detail.id
 
-		console.log(id)
 		let url = 'https://cnodejs.org/api/v1/topic/' + id + '/replies'
 
 		let postData = {

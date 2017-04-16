@@ -56,7 +56,6 @@ const getTopic = (tab) => {
 		status.done = false
 		status.topic = topic
 		dispatch(todoStatus(status))
-		//console.log(url)
 		return fetch(url, {
 		  method: 'GET',
 		  headers: {
@@ -77,16 +76,10 @@ const getTopic = (tab) => {
 
 			topic.search = search;
 			
-
-			
-			
 			status.topic = topic
 			status.doing = false
 			status.done = true
 			dispatch(doneStatus(status))
-
-			
-
 			
 		}).catch((ex) => {
 			status.error = "Something mistake :" + ex;
