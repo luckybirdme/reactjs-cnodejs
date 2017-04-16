@@ -1,0 +1,2707 @@
+{
+  "name": "react-hot-loader-minimal-boilerplate",
+  "version": "1.0.0",
+  "dependencies": {
+    "accepts": {
+      "version": "1.3.3",
+      "from": "accepts@>=1.3.3 <1.4.0",
+      "resolved": "http://r.tnpm.oa.com/accepts/download/accepts-1.3.3.tgz",
+      "dev": true
+    },
+    "acorn": {
+      "version": "4.0.11",
+      "from": "acorn@>=4.0.4 <5.0.0",
+      "resolved": "http://r.tnpm.oa.com/acorn/download/acorn-4.0.11.tgz",
+      "dev": true
+    },
+    "acorn-dynamic-import": {
+      "version": "2.0.2",
+      "from": "acorn-dynamic-import@>=2.0.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/acorn-dynamic-import/download/acorn-dynamic-import-2.0.2.tgz",
+      "dev": true
+    },
+    "ajv": {
+      "version": "4.11.5",
+      "from": "ajv@>=4.7.0 <5.0.0",
+      "resolved": "http://r.tnpm.oa.com/ajv/download/ajv-4.11.5.tgz",
+      "dev": true
+    },
+    "ajv-keywords": {
+      "version": "1.5.1",
+      "from": "ajv-keywords@>=1.1.1 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/ajv-keywords/download/ajv-keywords-1.5.1.tgz",
+      "dev": true
+    },
+    "align-text": {
+      "version": "0.1.4",
+      "from": "align-text@>=0.1.3 <0.2.0",
+      "resolved": "http://r.tnpm.oa.com/align-text/download/align-text-0.1.4.tgz",
+      "dev": true
+    },
+    "amdefine": {
+      "version": "1.0.1",
+      "from": "amdefine@>=0.0.4",
+      "resolved": "http://r.tnpm.oa.com/amdefine/download/amdefine-1.0.1.tgz",
+      "dev": true
+    },
+    "ansi-html": {
+      "version": "0.0.7",
+      "from": "ansi-html@0.0.7",
+      "resolved": "http://r.tnpm.oa.com/ansi-html/download/ansi-html-0.0.7.tgz",
+      "dev": true
+    },
+    "ansi-regex": {
+      "version": "2.1.1",
+      "from": "ansi-regex@>=2.0.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/ansi-regex/download/ansi-regex-2.1.1.tgz",
+      "dev": true
+    },
+    "ansi-styles": {
+      "version": "2.2.1",
+      "from": "ansi-styles@>=2.2.1 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/ansi-styles/download/ansi-styles-2.2.1.tgz",
+      "dev": true
+    },
+    "anymatch": {
+      "version": "1.3.0",
+      "from": "anymatch@>=1.3.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/anymatch/download/anymatch-1.3.0.tgz",
+      "dev": true
+    },
+    "arr-diff": {
+      "version": "2.0.0",
+      "from": "arr-diff@>=2.0.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/arr-diff/download/arr-diff-2.0.0.tgz",
+      "dev": true
+    },
+    "arr-flatten": {
+      "version": "1.0.1",
+      "from": "arr-flatten@>=1.0.1 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/arr-flatten/download/arr-flatten-1.0.1.tgz",
+      "dev": true
+    },
+    "array-flatten": {
+      "version": "1.1.1",
+      "from": "array-flatten@1.1.1",
+      "resolved": "http://r.tnpm.oa.com/array-flatten/download/array-flatten-1.1.1.tgz",
+      "dev": true
+    },
+    "array-unique": {
+      "version": "0.2.1",
+      "from": "array-unique@>=0.2.1 <0.3.0",
+      "resolved": "http://r.tnpm.oa.com/array-unique/download/array-unique-0.2.1.tgz",
+      "dev": true
+    },
+    "arrify": {
+      "version": "1.0.1",
+      "from": "arrify@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/arrify/download/arrify-1.0.1.tgz",
+      "dev": true
+    },
+    "asap": {
+      "version": "2.0.5",
+      "from": "asap@>=2.0.3 <2.1.0",
+      "resolved": "http://r.tnpm.oa.com/asap/download/asap-2.0.5.tgz"
+    },
+    "asn1.js": {
+      "version": "4.9.1",
+      "from": "asn1.js@>=4.0.0 <5.0.0",
+      "resolved": "http://r.tnpm.oa.com/asn1.js/download/asn1.js-4.9.1.tgz",
+      "dev": true
+    },
+    "assert": {
+      "version": "1.4.1",
+      "from": "assert@>=1.1.1 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/assert/download/assert-1.4.1.tgz",
+      "dev": true
+    },
+    "async": {
+      "version": "2.1.5",
+      "from": "async@>=2.1.2 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/async/download/async-2.1.5.tgz",
+      "dev": true
+    },
+    "async-each": {
+      "version": "1.0.1",
+      "from": "async-each@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/async-each/download/async-each-1.0.1.tgz",
+      "dev": true
+    },
+    "babel-code-frame": {
+      "version": "6.22.0",
+      "from": "babel-code-frame@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-code-frame/download/babel-code-frame-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-core": {
+      "version": "6.24.0",
+      "from": "babel-core@>=6.23.1 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-core/download/babel-core-6.24.0.tgz",
+      "dev": true
+    },
+    "babel-generator": {
+      "version": "6.24.0",
+      "from": "babel-generator@>=6.24.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-generator/download/babel-generator-6.24.0.tgz",
+      "dev": true
+    },
+    "babel-helper-builder-binary-assignment-operator-visitor": {
+      "version": "6.22.0",
+      "from": "babel-helper-builder-binary-assignment-operator-visitor@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-helper-builder-binary-assignment-operator-visitor/download/babel-helper-builder-binary-assignment-operator-visitor-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-helper-builder-react-jsx": {
+      "version": "6.23.0",
+      "from": "babel-helper-builder-react-jsx@>=6.23.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-helper-builder-react-jsx/download/babel-helper-builder-react-jsx-6.23.0.tgz",
+      "dev": true
+    },
+    "babel-helper-call-delegate": {
+      "version": "6.22.0",
+      "from": "babel-helper-call-delegate@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-helper-call-delegate/download/babel-helper-call-delegate-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-helper-define-map": {
+      "version": "6.23.0",
+      "from": "babel-helper-define-map@>=6.23.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-helper-define-map/download/babel-helper-define-map-6.23.0.tgz",
+      "dev": true
+    },
+    "babel-helper-explode-assignable-expression": {
+      "version": "6.22.0",
+      "from": "babel-helper-explode-assignable-expression@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-helper-explode-assignable-expression/download/babel-helper-explode-assignable-expression-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-helper-function-name": {
+      "version": "6.23.0",
+      "from": "babel-helper-function-name@>=6.23.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-helper-function-name/download/babel-helper-function-name-6.23.0.tgz",
+      "dev": true
+    },
+    "babel-helper-get-function-arity": {
+      "version": "6.22.0",
+      "from": "babel-helper-get-function-arity@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-helper-get-function-arity/download/babel-helper-get-function-arity-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-helper-hoist-variables": {
+      "version": "6.22.0",
+      "from": "babel-helper-hoist-variables@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-helper-hoist-variables/download/babel-helper-hoist-variables-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-helper-optimise-call-expression": {
+      "version": "6.23.0",
+      "from": "babel-helper-optimise-call-expression@>=6.23.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-helper-optimise-call-expression/download/babel-helper-optimise-call-expression-6.23.0.tgz",
+      "dev": true
+    },
+    "babel-helper-regex": {
+      "version": "6.22.0",
+      "from": "babel-helper-regex@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-helper-regex/download/babel-helper-regex-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-helper-remap-async-to-generator": {
+      "version": "6.22.0",
+      "from": "babel-helper-remap-async-to-generator@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-helper-remap-async-to-generator/download/babel-helper-remap-async-to-generator-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-helper-replace-supers": {
+      "version": "6.23.0",
+      "from": "babel-helper-replace-supers@>=6.23.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-helper-replace-supers/download/babel-helper-replace-supers-6.23.0.tgz",
+      "dev": true
+    },
+    "babel-helpers": {
+      "version": "6.23.0",
+      "from": "babel-helpers@>=6.23.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-helpers/download/babel-helpers-6.23.0.tgz",
+      "dev": true
+    },
+    "babel-loader": {
+      "version": "6.4.1",
+      "from": "babel-loader@>=6.3.2 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-loader/download/babel-loader-6.4.1.tgz",
+      "dev": true
+    },
+    "babel-messages": {
+      "version": "6.23.0",
+      "from": "babel-messages@>=6.23.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-messages/download/babel-messages-6.23.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-check-es2015-constants": {
+      "version": "6.22.0",
+      "from": "babel-plugin-check-es2015-constants@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-check-es2015-constants/download/babel-plugin-check-es2015-constants-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-syntax-async-functions": {
+      "version": "6.13.0",
+      "from": "babel-plugin-syntax-async-functions@>=6.8.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-syntax-async-functions/download/babel-plugin-syntax-async-functions-6.13.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-syntax-exponentiation-operator": {
+      "version": "6.13.0",
+      "from": "babel-plugin-syntax-exponentiation-operator@>=6.8.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-syntax-exponentiation-operator/download/babel-plugin-syntax-exponentiation-operator-6.13.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-syntax-flow": {
+      "version": "6.18.0",
+      "from": "babel-plugin-syntax-flow@>=6.18.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-syntax-flow/download/babel-plugin-syntax-flow-6.18.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-syntax-jsx": {
+      "version": "6.18.0",
+      "from": "babel-plugin-syntax-jsx@>=6.3.13 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-syntax-jsx/download/babel-plugin-syntax-jsx-6.18.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-syntax-trailing-function-commas": {
+      "version": "6.22.0",
+      "from": "babel-plugin-syntax-trailing-function-commas@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-syntax-trailing-function-commas/download/babel-plugin-syntax-trailing-function-commas-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-async-to-generator": {
+      "version": "6.22.0",
+      "from": "babel-plugin-transform-async-to-generator@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-async-to-generator/download/babel-plugin-transform-async-to-generator-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-es2015-arrow-functions": {
+      "version": "6.22.0",
+      "from": "babel-plugin-transform-es2015-arrow-functions@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-es2015-arrow-functions/download/babel-plugin-transform-es2015-arrow-functions-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-es2015-block-scoped-functions": {
+      "version": "6.22.0",
+      "from": "babel-plugin-transform-es2015-block-scoped-functions@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-es2015-block-scoped-functions/download/babel-plugin-transform-es2015-block-scoped-functions-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-es2015-block-scoping": {
+      "version": "6.23.0",
+      "from": "babel-plugin-transform-es2015-block-scoping@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-es2015-block-scoping/download/babel-plugin-transform-es2015-block-scoping-6.23.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-es2015-classes": {
+      "version": "6.23.0",
+      "from": "babel-plugin-transform-es2015-classes@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-es2015-classes/download/babel-plugin-transform-es2015-classes-6.23.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-es2015-computed-properties": {
+      "version": "6.22.0",
+      "from": "babel-plugin-transform-es2015-computed-properties@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-es2015-computed-properties/download/babel-plugin-transform-es2015-computed-properties-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-es2015-destructuring": {
+      "version": "6.23.0",
+      "from": "babel-plugin-transform-es2015-destructuring@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-es2015-destructuring/download/babel-plugin-transform-es2015-destructuring-6.23.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-es2015-duplicate-keys": {
+      "version": "6.22.0",
+      "from": "babel-plugin-transform-es2015-duplicate-keys@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-es2015-duplicate-keys/download/babel-plugin-transform-es2015-duplicate-keys-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-es2015-for-of": {
+      "version": "6.23.0",
+      "from": "babel-plugin-transform-es2015-for-of@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-es2015-for-of/download/babel-plugin-transform-es2015-for-of-6.23.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-es2015-function-name": {
+      "version": "6.22.0",
+      "from": "babel-plugin-transform-es2015-function-name@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-es2015-function-name/download/babel-plugin-transform-es2015-function-name-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-es2015-literals": {
+      "version": "6.22.0",
+      "from": "babel-plugin-transform-es2015-literals@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-es2015-literals/download/babel-plugin-transform-es2015-literals-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-es2015-modules-amd": {
+      "version": "6.24.0",
+      "from": "babel-plugin-transform-es2015-modules-amd@>=6.24.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-es2015-modules-amd/download/babel-plugin-transform-es2015-modules-amd-6.24.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-es2015-modules-commonjs": {
+      "version": "6.24.0",
+      "from": "babel-plugin-transform-es2015-modules-commonjs@>=6.24.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-es2015-modules-commonjs/download/babel-plugin-transform-es2015-modules-commonjs-6.24.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-es2015-modules-systemjs": {
+      "version": "6.23.0",
+      "from": "babel-plugin-transform-es2015-modules-systemjs@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-es2015-modules-systemjs/download/babel-plugin-transform-es2015-modules-systemjs-6.23.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-es2015-modules-umd": {
+      "version": "6.24.0",
+      "from": "babel-plugin-transform-es2015-modules-umd@>=6.24.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-es2015-modules-umd/download/babel-plugin-transform-es2015-modules-umd-6.24.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-es2015-object-super": {
+      "version": "6.22.0",
+      "from": "babel-plugin-transform-es2015-object-super@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-es2015-object-super/download/babel-plugin-transform-es2015-object-super-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-es2015-parameters": {
+      "version": "6.23.0",
+      "from": "babel-plugin-transform-es2015-parameters@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-es2015-parameters/download/babel-plugin-transform-es2015-parameters-6.23.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-es2015-shorthand-properties": {
+      "version": "6.22.0",
+      "from": "babel-plugin-transform-es2015-shorthand-properties@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-es2015-shorthand-properties/download/babel-plugin-transform-es2015-shorthand-properties-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-es2015-spread": {
+      "version": "6.22.0",
+      "from": "babel-plugin-transform-es2015-spread@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-es2015-spread/download/babel-plugin-transform-es2015-spread-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-es2015-sticky-regex": {
+      "version": "6.22.0",
+      "from": "babel-plugin-transform-es2015-sticky-regex@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-es2015-sticky-regex/download/babel-plugin-transform-es2015-sticky-regex-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-es2015-template-literals": {
+      "version": "6.22.0",
+      "from": "babel-plugin-transform-es2015-template-literals@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-es2015-template-literals/download/babel-plugin-transform-es2015-template-literals-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-es2015-typeof-symbol": {
+      "version": "6.23.0",
+      "from": "babel-plugin-transform-es2015-typeof-symbol@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-es2015-typeof-symbol/download/babel-plugin-transform-es2015-typeof-symbol-6.23.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-es2015-unicode-regex": {
+      "version": "6.22.0",
+      "from": "babel-plugin-transform-es2015-unicode-regex@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-es2015-unicode-regex/download/babel-plugin-transform-es2015-unicode-regex-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-exponentiation-operator": {
+      "version": "6.22.0",
+      "from": "babel-plugin-transform-exponentiation-operator@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-exponentiation-operator/download/babel-plugin-transform-exponentiation-operator-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-flow-strip-types": {
+      "version": "6.22.0",
+      "from": "babel-plugin-transform-flow-strip-types@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-flow-strip-types/download/babel-plugin-transform-flow-strip-types-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-react-display-name": {
+      "version": "6.23.0",
+      "from": "babel-plugin-transform-react-display-name@>=6.23.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-react-display-name/download/babel-plugin-transform-react-display-name-6.23.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-react-jsx": {
+      "version": "6.23.0",
+      "from": "babel-plugin-transform-react-jsx@>=6.23.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-react-jsx/download/babel-plugin-transform-react-jsx-6.23.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-react-jsx-self": {
+      "version": "6.22.0",
+      "from": "babel-plugin-transform-react-jsx-self@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-react-jsx-self/download/babel-plugin-transform-react-jsx-self-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-react-jsx-source": {
+      "version": "6.22.0",
+      "from": "babel-plugin-transform-react-jsx-source@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-react-jsx-source/download/babel-plugin-transform-react-jsx-source-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-regenerator": {
+      "version": "6.22.0",
+      "from": "babel-plugin-transform-regenerator@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-regenerator/download/babel-plugin-transform-regenerator-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-plugin-transform-strict-mode": {
+      "version": "6.22.0",
+      "from": "babel-plugin-transform-strict-mode@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-plugin-transform-strict-mode/download/babel-plugin-transform-strict-mode-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-polyfill": {
+      "version": "6.23.0",
+      "from": "babel-polyfill@>=6.23.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-polyfill/download/babel-polyfill-6.23.0.tgz",
+      "dev": true,
+      "dependencies": {
+        "core-js": {
+          "version": "2.4.1",
+          "from": "core-js@>=2.4.0 <3.0.0",
+          "resolved": "http://r.tnpm.oa.com/core-js/download/core-js-2.4.1.tgz",
+          "dev": true
+        }
+      }
+    },
+    "babel-preset-es2015": {
+      "version": "6.24.0",
+      "from": "babel-preset-es2015@>=6.24.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-preset-es2015/download/babel-preset-es2015-6.24.0.tgz",
+      "dev": true
+    },
+    "babel-preset-es2016": {
+      "version": "6.22.0",
+      "from": "babel-preset-es2016@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-preset-es2016/download/babel-preset-es2016-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-preset-es2017": {
+      "version": "6.22.0",
+      "from": "babel-preset-es2017@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-preset-es2017/download/babel-preset-es2017-6.22.0.tgz",
+      "dev": true
+    },
+    "babel-preset-flow": {
+      "version": "6.23.0",
+      "from": "babel-preset-flow@>=6.23.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-preset-flow/download/babel-preset-flow-6.23.0.tgz",
+      "dev": true
+    },
+    "babel-preset-latest": {
+      "version": "6.24.0",
+      "from": "babel-preset-latest@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-preset-latest/download/babel-preset-latest-6.24.0.tgz",
+      "dev": true
+    },
+    "babel-preset-react": {
+      "version": "6.23.0",
+      "from": "babel-preset-react@>=6.23.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-preset-react/download/babel-preset-react-6.23.0.tgz",
+      "dev": true
+    },
+    "babel-register": {
+      "version": "6.24.0",
+      "from": "babel-register@>=6.24.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-register/download/babel-register-6.24.0.tgz",
+      "dev": true,
+      "dependencies": {
+        "core-js": {
+          "version": "2.4.1",
+          "from": "core-js@>=2.4.0 <3.0.0",
+          "resolved": "http://r.tnpm.oa.com/core-js/download/core-js-2.4.1.tgz",
+          "dev": true
+        }
+      }
+    },
+    "babel-runtime": {
+      "version": "6.23.0",
+      "from": "babel-runtime@>=6.22.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-runtime/download/babel-runtime-6.23.0.tgz",
+      "dependencies": {
+        "core-js": {
+          "version": "2.4.1",
+          "from": "core-js@>=2.4.0 <3.0.0",
+          "resolved": "http://r.tnpm.oa.com/core-js/download/core-js-2.4.1.tgz"
+        }
+      }
+    },
+    "babel-template": {
+      "version": "6.23.0",
+      "from": "babel-template@>=6.23.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-template/download/babel-template-6.23.0.tgz",
+      "dev": true
+    },
+    "babel-traverse": {
+      "version": "6.23.1",
+      "from": "babel-traverse@>=6.23.1 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-traverse/download/babel-traverse-6.23.1.tgz",
+      "dev": true
+    },
+    "babel-types": {
+      "version": "6.23.0",
+      "from": "babel-types@>=6.23.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babel-types/download/babel-types-6.23.0.tgz",
+      "dev": true
+    },
+    "babylon": {
+      "version": "6.16.1",
+      "from": "babylon@>=6.11.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/babylon/download/babylon-6.16.1.tgz",
+      "dev": true
+    },
+    "balanced-match": {
+      "version": "0.4.2",
+      "from": "balanced-match@>=0.4.1 <0.5.0",
+      "resolved": "http://r.tnpm.oa.com/balanced-match/download/balanced-match-0.4.2.tgz",
+      "dev": true
+    },
+    "base64-js": {
+      "version": "1.2.0",
+      "from": "base64-js@>=1.0.2 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/base64-js/download/base64-js-1.2.0.tgz",
+      "dev": true
+    },
+    "batch": {
+      "version": "0.5.3",
+      "from": "batch@0.5.3",
+      "resolved": "http://r.tnpm.oa.com/batch/download/batch-0.5.3.tgz",
+      "dev": true
+    },
+    "big.js": {
+      "version": "3.1.3",
+      "from": "big.js@>=3.1.3 <4.0.0",
+      "resolved": "http://r.tnpm.oa.com/big.js/download/big.js-3.1.3.tgz",
+      "dev": true
+    },
+    "binary-extensions": {
+      "version": "1.8.0",
+      "from": "binary-extensions@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/binary-extensions/download/binary-extensions-1.8.0.tgz",
+      "dev": true
+    },
+    "bn.js": {
+      "version": "4.11.6",
+      "from": "bn.js@>=4.1.1 <5.0.0",
+      "resolved": "http://r.tnpm.oa.com/bn.js/download/bn.js-4.11.6.tgz",
+      "dev": true
+    },
+    "bowser": {
+      "version": "1.6.0",
+      "from": "bowser@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/bowser/download/bowser-1.6.0.tgz"
+    },
+    "brace-expansion": {
+      "version": "1.1.6",
+      "from": "brace-expansion@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/brace-expansion/download/brace-expansion-1.1.6.tgz",
+      "dev": true
+    },
+    "braces": {
+      "version": "1.8.5",
+      "from": "braces@>=1.8.2 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/braces/download/braces-1.8.5.tgz",
+      "dev": true
+    },
+    "brorand": {
+      "version": "1.1.0",
+      "from": "brorand@>=1.0.1 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/brorand/download/brorand-1.1.0.tgz",
+      "dev": true
+    },
+    "browserify-aes": {
+      "version": "1.0.6",
+      "from": "browserify-aes@>=1.0.4 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/browserify-aes/download/browserify-aes-1.0.6.tgz",
+      "dev": true
+    },
+    "browserify-cipher": {
+      "version": "1.0.0",
+      "from": "browserify-cipher@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/browserify-cipher/download/browserify-cipher-1.0.0.tgz",
+      "dev": true
+    },
+    "browserify-des": {
+      "version": "1.0.0",
+      "from": "browserify-des@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/browserify-des/download/browserify-des-1.0.0.tgz",
+      "dev": true
+    },
+    "browserify-rsa": {
+      "version": "4.0.1",
+      "from": "browserify-rsa@>=4.0.0 <5.0.0",
+      "resolved": "http://r.tnpm.oa.com/browserify-rsa/download/browserify-rsa-4.0.1.tgz",
+      "dev": true
+    },
+    "browserify-sign": {
+      "version": "4.0.0",
+      "from": "browserify-sign@>=4.0.0 <5.0.0",
+      "resolved": "http://r.tnpm.oa.com/browserify-sign/download/browserify-sign-4.0.0.tgz",
+      "dev": true
+    },
+    "browserify-zlib": {
+      "version": "0.1.4",
+      "from": "browserify-zlib@>=0.1.4 <0.2.0",
+      "resolved": "http://r.tnpm.oa.com/browserify-zlib/download/browserify-zlib-0.1.4.tgz",
+      "dev": true
+    },
+    "buffer": {
+      "version": "4.9.1",
+      "from": "buffer@>=4.3.0 <5.0.0",
+      "resolved": "http://r.tnpm.oa.com/buffer/download/buffer-4.9.1.tgz",
+      "dev": true
+    },
+    "buffer-shims": {
+      "version": "1.0.0",
+      "from": "buffer-shims@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/buffer-shims/download/buffer-shims-1.0.0.tgz",
+      "dev": true
+    },
+    "buffer-xor": {
+      "version": "1.0.3",
+      "from": "buffer-xor@>=1.0.2 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/buffer-xor/download/buffer-xor-1.0.3.tgz",
+      "dev": true
+    },
+    "builtin-modules": {
+      "version": "1.1.1",
+      "from": "builtin-modules@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/builtin-modules/download/builtin-modules-1.1.1.tgz",
+      "dev": true
+    },
+    "builtin-status-codes": {
+      "version": "3.0.0",
+      "from": "builtin-status-codes@>=3.0.0 <4.0.0",
+      "resolved": "http://r.tnpm.oa.com/builtin-status-codes/download/builtin-status-codes-3.0.0.tgz",
+      "dev": true
+    },
+    "bytes": {
+      "version": "2.3.0",
+      "from": "bytes@2.3.0",
+      "resolved": "http://r.tnpm.oa.com/bytes/download/bytes-2.3.0.tgz",
+      "dev": true
+    },
+    "camelcase": {
+      "version": "1.2.1",
+      "from": "camelcase@>=1.0.2 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/camelcase/download/camelcase-1.2.1.tgz",
+      "dev": true
+    },
+    "center-align": {
+      "version": "0.1.3",
+      "from": "center-align@>=0.1.1 <0.2.0",
+      "resolved": "http://r.tnpm.oa.com/center-align/download/center-align-0.1.3.tgz",
+      "dev": true
+    },
+    "chalk": {
+      "version": "1.1.3",
+      "from": "chalk@>=1.1.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/chalk/download/chalk-1.1.3.tgz",
+      "dev": true
+    },
+    "change-emitter": {
+      "version": "0.1.3",
+      "from": "change-emitter@>=0.1.2 <0.2.0",
+      "resolved": "http://r.tnpm.oa.com/change-emitter/download/change-emitter-0.1.3.tgz"
+    },
+    "chokidar": {
+      "version": "1.6.1",
+      "from": "chokidar@>=1.4.3 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/chokidar/download/chokidar-1.6.1.tgz",
+      "dev": true
+    },
+    "cipher-base": {
+      "version": "1.0.3",
+      "from": "cipher-base@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/cipher-base/download/cipher-base-1.0.3.tgz",
+      "dev": true
+    },
+    "cliui": {
+      "version": "2.1.0",
+      "from": "cliui@>=2.1.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/cliui/download/cliui-2.1.0.tgz",
+      "dev": true
+    },
+    "co": {
+      "version": "4.6.0",
+      "from": "co@>=4.6.0 <5.0.0",
+      "resolved": "http://r.tnpm.oa.com/co/download/co-4.6.0.tgz",
+      "dev": true
+    },
+    "code-point-at": {
+      "version": "1.1.0",
+      "from": "code-point-at@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/code-point-at/download/code-point-at-1.1.0.tgz",
+      "dev": true
+    },
+    "commondir": {
+      "version": "1.0.1",
+      "from": "commondir@>=1.0.1 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/commondir/download/commondir-1.0.1.tgz",
+      "dev": true
+    },
+    "compressible": {
+      "version": "2.0.9",
+      "from": "compressible@>=2.0.8 <2.1.0",
+      "resolved": "http://r.tnpm.oa.com/compressible/download/compressible-2.0.9.tgz",
+      "dev": true
+    },
+    "compression": {
+      "version": "1.6.2",
+      "from": "compression@>=1.5.2 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/compression/download/compression-1.6.2.tgz",
+      "dev": true,
+      "dependencies": {
+        "debug": {
+          "version": "2.2.0",
+          "from": "debug@>=2.2.0 <2.3.0",
+          "resolved": "http://r.tnpm.oa.com/debug/download/debug-2.2.0.tgz",
+          "dev": true
+        },
+        "ms": {
+          "version": "0.7.1",
+          "from": "ms@0.7.1",
+          "resolved": "http://r.tnpm.oa.com/ms/download/ms-0.7.1.tgz",
+          "dev": true
+        }
+      }
+    },
+    "concat-map": {
+      "version": "0.0.1",
+      "from": "concat-map@0.0.1",
+      "resolved": "http://r.tnpm.oa.com/concat-map/download/concat-map-0.0.1.tgz",
+      "dev": true
+    },
+    "connect-history-api-fallback": {
+      "version": "1.3.0",
+      "from": "connect-history-api-fallback@>=1.3.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/connect-history-api-fallback/download/connect-history-api-fallback-1.3.0.tgz",
+      "dev": true
+    },
+    "console-browserify": {
+      "version": "1.1.0",
+      "from": "console-browserify@>=1.1.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/console-browserify/download/console-browserify-1.1.0.tgz",
+      "dev": true
+    },
+    "constants-browserify": {
+      "version": "1.0.0",
+      "from": "constants-browserify@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/constants-browserify/download/constants-browserify-1.0.0.tgz",
+      "dev": true
+    },
+    "content-disposition": {
+      "version": "0.5.2",
+      "from": "content-disposition@0.5.2",
+      "resolved": "http://r.tnpm.oa.com/content-disposition/download/content-disposition-0.5.2.tgz",
+      "dev": true
+    },
+    "content-type": {
+      "version": "1.0.2",
+      "from": "content-type@>=1.0.2 <1.1.0",
+      "resolved": "http://r.tnpm.oa.com/content-type/download/content-type-1.0.2.tgz",
+      "dev": true
+    },
+    "convert-source-map": {
+      "version": "1.4.0",
+      "from": "convert-source-map@>=1.1.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/convert-source-map/download/convert-source-map-1.4.0.tgz",
+      "dev": true
+    },
+    "cookie": {
+      "version": "0.3.1",
+      "from": "cookie@0.3.1",
+      "resolved": "http://r.tnpm.oa.com/cookie/download/cookie-0.3.1.tgz",
+      "dev": true
+    },
+    "cookie-signature": {
+      "version": "1.0.6",
+      "from": "cookie-signature@1.0.6",
+      "resolved": "http://r.tnpm.oa.com/cookie-signature/download/cookie-signature-1.0.6.tgz",
+      "dev": true
+    },
+    "core-js": {
+      "version": "1.2.7",
+      "from": "core-js@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/core-js/download/core-js-1.2.7.tgz"
+    },
+    "core-util-is": {
+      "version": "1.0.2",
+      "from": "core-util-is@>=1.0.0 <1.1.0",
+      "resolved": "http://r.tnpm.oa.com/core-util-is/download/core-util-is-1.0.2.tgz",
+      "dev": true
+    },
+    "create-ecdh": {
+      "version": "4.0.0",
+      "from": "create-ecdh@>=4.0.0 <5.0.0",
+      "resolved": "http://r.tnpm.oa.com/create-ecdh/download/create-ecdh-4.0.0.tgz",
+      "dev": true
+    },
+    "create-hash": {
+      "version": "1.1.2",
+      "from": "create-hash@>=1.1.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/create-hash/download/create-hash-1.1.2.tgz",
+      "dev": true
+    },
+    "create-hmac": {
+      "version": "1.1.4",
+      "from": "create-hmac@>=1.1.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/create-hmac/download/create-hmac-1.1.4.tgz",
+      "dev": true
+    },
+    "crypto-browserify": {
+      "version": "3.11.0",
+      "from": "crypto-browserify@>=3.11.0 <4.0.0",
+      "resolved": "http://r.tnpm.oa.com/crypto-browserify/download/crypto-browserify-3.11.0.tgz",
+      "dev": true
+    },
+    "date-now": {
+      "version": "0.1.4",
+      "from": "date-now@>=0.1.4 <0.2.0",
+      "resolved": "http://r.tnpm.oa.com/date-now/download/date-now-0.1.4.tgz",
+      "dev": true
+    },
+    "debug": {
+      "version": "2.6.3",
+      "from": "debug@>=2.1.1 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/debug/download/debug-2.6.3.tgz",
+      "dev": true
+    },
+    "decamelize": {
+      "version": "1.2.0",
+      "from": "decamelize@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/decamelize/download/decamelize-1.2.0.tgz",
+      "dev": true
+    },
+    "depd": {
+      "version": "1.1.0",
+      "from": "depd@>=1.1.0 <1.2.0",
+      "resolved": "http://r.tnpm.oa.com/depd/download/depd-1.1.0.tgz",
+      "dev": true
+    },
+    "des.js": {
+      "version": "1.0.0",
+      "from": "des.js@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/des.js/download/des.js-1.0.0.tgz",
+      "dev": true
+    },
+    "destroy": {
+      "version": "1.0.4",
+      "from": "destroy@>=1.0.4 <1.1.0",
+      "resolved": "http://r.tnpm.oa.com/destroy/download/destroy-1.0.4.tgz",
+      "dev": true
+    },
+    "detect-indent": {
+      "version": "4.0.0",
+      "from": "detect-indent@>=4.0.0 <5.0.0",
+      "resolved": "http://r.tnpm.oa.com/detect-indent/download/detect-indent-4.0.0.tgz",
+      "dev": true
+    },
+    "diffie-hellman": {
+      "version": "5.0.2",
+      "from": "diffie-hellman@>=5.0.0 <6.0.0",
+      "resolved": "http://r.tnpm.oa.com/diffie-hellman/download/diffie-hellman-5.0.2.tgz",
+      "dev": true
+    },
+    "dom-walk": {
+      "version": "0.1.1",
+      "from": "dom-walk@>=0.1.0 <0.2.0",
+      "resolved": "http://r.tnpm.oa.com/dom-walk/download/dom-walk-0.1.1.tgz",
+      "dev": true
+    },
+    "domain-browser": {
+      "version": "1.1.7",
+      "from": "domain-browser@>=1.1.1 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/domain-browser/download/domain-browser-1.1.7.tgz",
+      "dev": true
+    },
+    "ee-first": {
+      "version": "1.1.1",
+      "from": "ee-first@1.1.1",
+      "resolved": "http://r.tnpm.oa.com/ee-first/download/ee-first-1.1.1.tgz",
+      "dev": true
+    },
+    "elliptic": {
+      "version": "6.4.0",
+      "from": "elliptic@>=6.0.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/elliptic/download/elliptic-6.4.0.tgz",
+      "dev": true
+    },
+    "emojis-list": {
+      "version": "2.1.0",
+      "from": "emojis-list@>=2.0.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/emojis-list/download/emojis-list-2.1.0.tgz",
+      "dev": true
+    },
+    "encodeurl": {
+      "version": "1.0.1",
+      "from": "encodeurl@>=1.0.1 <1.1.0",
+      "resolved": "http://r.tnpm.oa.com/encodeurl/download/encodeurl-1.0.1.tgz",
+      "dev": true
+    },
+    "encoding": {
+      "version": "0.1.12",
+      "from": "encoding@>=0.1.11 <0.2.0",
+      "resolved": "http://r.tnpm.oa.com/encoding/download/encoding-0.1.12.tgz"
+    },
+    "enhanced-resolve": {
+      "version": "3.1.0",
+      "from": "enhanced-resolve@>=3.0.0 <4.0.0",
+      "resolved": "http://r.tnpm.oa.com/enhanced-resolve/download/enhanced-resolve-3.1.0.tgz",
+      "dev": true
+    },
+    "errno": {
+      "version": "0.1.4",
+      "from": "errno@>=0.1.3 <0.2.0",
+      "resolved": "http://r.tnpm.oa.com/errno/download/errno-0.1.4.tgz",
+      "dev": true
+    },
+    "error-ex": {
+      "version": "1.3.1",
+      "from": "error-ex@>=1.2.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/error-ex/download/error-ex-1.3.1.tgz",
+      "dev": true
+    },
+    "error-stack-parser": {
+      "version": "1.3.6",
+      "from": "error-stack-parser@>=1.3.6 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/error-stack-parser/download/error-stack-parser-1.3.6.tgz",
+      "dev": true
+    },
+    "escape-html": {
+      "version": "1.0.3",
+      "from": "escape-html@>=1.0.3 <1.1.0",
+      "resolved": "http://r.tnpm.oa.com/escape-html/download/escape-html-1.0.3.tgz",
+      "dev": true
+    },
+    "escape-string-regexp": {
+      "version": "1.0.5",
+      "from": "escape-string-regexp@>=1.0.2 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz",
+      "dev": true
+    },
+    "esutils": {
+      "version": "2.0.2",
+      "from": "esutils@>=2.0.2 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/esutils/download/esutils-2.0.2.tgz",
+      "dev": true
+    },
+    "etag": {
+      "version": "1.8.0",
+      "from": "etag@>=1.8.0 <1.9.0",
+      "resolved": "http://r.tnpm.oa.com/etag/download/etag-1.8.0.tgz",
+      "dev": true
+    },
+    "eventemitter3": {
+      "version": "1.2.0",
+      "from": "eventemitter3@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/eventemitter3/download/eventemitter3-1.2.0.tgz",
+      "dev": true
+    },
+    "events": {
+      "version": "1.1.1",
+      "from": "events@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/events/download/events-1.1.1.tgz",
+      "dev": true
+    },
+    "eventsource": {
+      "version": "0.1.6",
+      "from": "eventsource@0.1.6",
+      "resolved": "http://r.tnpm.oa.com/eventsource/download/eventsource-0.1.6.tgz",
+      "dev": true
+    },
+    "evp_bytestokey": {
+      "version": "1.0.0",
+      "from": "evp_bytestokey@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/evp_bytestokey/download/evp_bytestokey-1.0.0.tgz",
+      "dev": true
+    },
+    "expand-brackets": {
+      "version": "0.1.5",
+      "from": "expand-brackets@>=0.1.4 <0.2.0",
+      "resolved": "http://r.tnpm.oa.com/expand-brackets/download/expand-brackets-0.1.5.tgz",
+      "dev": true
+    },
+    "expand-range": {
+      "version": "1.8.2",
+      "from": "expand-range@>=1.8.1 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/expand-range/download/expand-range-1.8.2.tgz",
+      "dev": true
+    },
+    "express": {
+      "version": "4.15.2",
+      "from": "express@>=4.13.3 <5.0.0",
+      "resolved": "http://r.tnpm.oa.com/express/download/express-4.15.2.tgz",
+      "dev": true,
+      "dependencies": {
+        "debug": {
+          "version": "2.6.1",
+          "from": "debug@2.6.1",
+          "resolved": "http://r.tnpm.oa.com/debug/download/debug-2.6.1.tgz",
+          "dev": true
+        }
+      }
+    },
+    "extglob": {
+      "version": "0.3.2",
+      "from": "extglob@>=0.3.1 <0.4.0",
+      "resolved": "http://r.tnpm.oa.com/extglob/download/extglob-0.3.2.tgz",
+      "dev": true
+    },
+    "faye-websocket": {
+      "version": "0.10.0",
+      "from": "faye-websocket@>=0.10.0 <0.11.0",
+      "resolved": "http://r.tnpm.oa.com/faye-websocket/download/faye-websocket-0.10.0.tgz",
+      "dev": true
+    },
+    "fbjs": {
+      "version": "0.8.9",
+      "from": "fbjs@>=0.8.4 <0.9.0",
+      "resolved": "http://r.tnpm.oa.com/fbjs/download/fbjs-0.8.9.tgz"
+    },
+    "filename-regex": {
+      "version": "2.0.0",
+      "from": "filename-regex@>=2.0.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/filename-regex/download/filename-regex-2.0.0.tgz",
+      "dev": true
+    },
+    "fill-range": {
+      "version": "2.2.3",
+      "from": "fill-range@>=2.1.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/fill-range/download/fill-range-2.2.3.tgz",
+      "dev": true
+    },
+    "finalhandler": {
+      "version": "1.0.0",
+      "from": "finalhandler@>=1.0.0 <1.1.0",
+      "resolved": "http://r.tnpm.oa.com/finalhandler/download/finalhandler-1.0.0.tgz",
+      "dev": true,
+      "dependencies": {
+        "debug": {
+          "version": "2.6.1",
+          "from": "debug@2.6.1",
+          "resolved": "http://r.tnpm.oa.com/debug/download/debug-2.6.1.tgz",
+          "dev": true
+        }
+      }
+    },
+    "find-cache-dir": {
+      "version": "0.1.1",
+      "from": "find-cache-dir@>=0.1.1 <0.2.0",
+      "resolved": "http://r.tnpm.oa.com/find-cache-dir/download/find-cache-dir-0.1.1.tgz",
+      "dev": true
+    },
+    "find-up": {
+      "version": "1.1.2",
+      "from": "find-up@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/find-up/download/find-up-1.1.2.tgz",
+      "dev": true
+    },
+    "for-in": {
+      "version": "1.0.2",
+      "from": "for-in@>=1.0.1 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/for-in/download/for-in-1.0.2.tgz",
+      "dev": true
+    },
+    "for-own": {
+      "version": "0.1.5",
+      "from": "for-own@>=0.1.4 <0.2.0",
+      "resolved": "http://r.tnpm.oa.com/for-own/download/for-own-0.1.5.tgz",
+      "dev": true
+    },
+    "forwarded": {
+      "version": "0.1.0",
+      "from": "forwarded@>=0.1.0 <0.2.0",
+      "resolved": "http://r.tnpm.oa.com/forwarded/download/forwarded-0.1.0.tgz",
+      "dev": true
+    },
+    "fresh": {
+      "version": "0.5.0",
+      "from": "fresh@0.5.0",
+      "resolved": "http://r.tnpm.oa.com/fresh/download/fresh-0.5.0.tgz",
+      "dev": true
+    },
+    "get-caller-file": {
+      "version": "1.0.2",
+      "from": "get-caller-file@>=1.0.1 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/get-caller-file/download/get-caller-file-1.0.2.tgz",
+      "dev": true
+    },
+    "glob-base": {
+      "version": "0.3.0",
+      "from": "glob-base@>=0.3.0 <0.4.0",
+      "resolved": "http://r.tnpm.oa.com/glob-base/download/glob-base-0.3.0.tgz",
+      "dev": true
+    },
+    "glob-parent": {
+      "version": "2.0.0",
+      "from": "glob-parent@>=2.0.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/glob-parent/download/glob-parent-2.0.0.tgz",
+      "dev": true
+    },
+    "global": {
+      "version": "4.3.1",
+      "from": "global@>=4.3.0 <5.0.0",
+      "resolved": "http://r.tnpm.oa.com/global/download/global-4.3.1.tgz",
+      "dev": true
+    },
+    "globals": {
+      "version": "9.16.0",
+      "from": "globals@>=9.0.0 <10.0.0",
+      "resolved": "http://r.tnpm.oa.com/globals/download/globals-9.16.0.tgz",
+      "dev": true
+    },
+    "graceful-fs": {
+      "version": "4.1.11",
+      "from": "graceful-fs@>=4.1.2 <5.0.0",
+      "resolved": "http://r.tnpm.oa.com/graceful-fs/download/graceful-fs-4.1.11.tgz",
+      "dev": true
+    },
+    "handle-thing": {
+      "version": "1.2.5",
+      "from": "handle-thing@>=1.2.4 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/handle-thing/download/handle-thing-1.2.5.tgz",
+      "dev": true
+    },
+    "has-ansi": {
+      "version": "2.0.0",
+      "from": "has-ansi@>=2.0.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/has-ansi/download/has-ansi-2.0.0.tgz",
+      "dev": true
+    },
+    "has-flag": {
+      "version": "1.0.0",
+      "from": "has-flag@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/has-flag/download/has-flag-1.0.0.tgz",
+      "dev": true
+    },
+    "hash.js": {
+      "version": "1.0.3",
+      "from": "hash.js@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/hash.js/download/hash.js-1.0.3.tgz",
+      "dev": true
+    },
+    "history": {
+      "version": "4.6.1",
+      "from": "history@>=4.6.0 <5.0.0",
+      "resolved": "http://r.tnpm.oa.com/history/download/history-4.6.1.tgz"
+    },
+    "hmac-drbg": {
+      "version": "1.0.0",
+      "from": "hmac-drbg@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/hmac-drbg/download/hmac-drbg-1.0.0.tgz",
+      "dev": true
+    },
+    "hoist-non-react-statics": {
+      "version": "1.2.0",
+      "from": "hoist-non-react-statics@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/hoist-non-react-statics/download/hoist-non-react-statics-1.2.0.tgz"
+    },
+    "home-or-tmp": {
+      "version": "2.0.0",
+      "from": "home-or-tmp@>=2.0.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/home-or-tmp/download/home-or-tmp-2.0.0.tgz",
+      "dev": true
+    },
+    "hosted-git-info": {
+      "version": "2.2.0",
+      "from": "hosted-git-info@>=2.1.4 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/hosted-git-info/download/hosted-git-info-2.2.0.tgz",
+      "dev": true
+    },
+    "hpack.js": {
+      "version": "2.1.6",
+      "from": "hpack.js@>=2.1.6 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/hpack.js/download/hpack.js-2.1.6.tgz",
+      "dev": true
+    },
+    "html-entities": {
+      "version": "1.2.0",
+      "from": "html-entities@>=1.2.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/html-entities/download/html-entities-1.2.0.tgz",
+      "dev": true
+    },
+    "http-deceiver": {
+      "version": "1.2.7",
+      "from": "http-deceiver@>=1.2.4 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/http-deceiver/download/http-deceiver-1.2.7.tgz",
+      "dev": true
+    },
+    "http-errors": {
+      "version": "1.6.1",
+      "from": "http-errors@>=1.6.1 <1.7.0",
+      "resolved": "http://r.tnpm.oa.com/http-errors/download/http-errors-1.6.1.tgz",
+      "dev": true
+    },
+    "http-proxy": {
+      "version": "1.16.2",
+      "from": "http-proxy@>=1.16.2 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/http-proxy/download/http-proxy-1.16.2.tgz",
+      "dev": true
+    },
+    "http-proxy-middleware": {
+      "version": "0.17.4",
+      "from": "http-proxy-middleware@>=0.17.4 <0.18.0",
+      "resolved": "http://r.tnpm.oa.com/http-proxy-middleware/download/http-proxy-middleware-0.17.4.tgz",
+      "dev": true,
+      "dependencies": {
+        "is-extglob": {
+          "version": "2.1.1",
+          "from": "is-extglob@>=2.1.0 <3.0.0",
+          "resolved": "http://r.tnpm.oa.com/is-extglob/download/is-extglob-2.1.1.tgz",
+          "dev": true
+        },
+        "is-glob": {
+          "version": "3.1.0",
+          "from": "is-glob@>=3.1.0 <4.0.0",
+          "resolved": "http://r.tnpm.oa.com/is-glob/download/is-glob-3.1.0.tgz",
+          "dev": true
+        }
+      }
+    },
+    "https-browserify": {
+      "version": "0.0.1",
+      "from": "https-browserify@0.0.1",
+      "resolved": "http://r.tnpm.oa.com/https-browserify/download/https-browserify-0.0.1.tgz",
+      "dev": true
+    },
+    "hyphenate-style-name": {
+      "version": "1.0.2",
+      "from": "hyphenate-style-name@>=1.0.1 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/hyphenate-style-name/download/hyphenate-style-name-1.0.2.tgz"
+    },
+    "iconv-lite": {
+      "version": "0.4.15",
+      "from": "iconv-lite@>=0.4.13 <0.5.0",
+      "resolved": "http://r.tnpm.oa.com/iconv-lite/download/iconv-lite-0.4.15.tgz"
+    },
+    "ieee754": {
+      "version": "1.1.8",
+      "from": "ieee754@>=1.1.4 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/ieee754/download/ieee754-1.1.8.tgz",
+      "dev": true
+    },
+    "indexof": {
+      "version": "0.0.1",
+      "from": "indexof@0.0.1",
+      "resolved": "http://r.tnpm.oa.com/indexof/download/indexof-0.0.1.tgz",
+      "dev": true
+    },
+    "inherits": {
+      "version": "2.0.3",
+      "from": "inherits@>=2.0.1 <2.1.0",
+      "resolved": "http://r.tnpm.oa.com/inherits/download/inherits-2.0.3.tgz",
+      "dev": true
+    },
+    "inline-style-prefixer": {
+      "version": "2.0.5",
+      "from": "inline-style-prefixer@>=2.0.1 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/inline-style-prefixer/download/inline-style-prefixer-2.0.5.tgz"
+    },
+    "interpret": {
+      "version": "1.0.1",
+      "from": "interpret@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/interpret/download/interpret-1.0.1.tgz",
+      "dev": true
+    },
+    "invariant": {
+      "version": "2.2.2",
+      "from": "invariant@>=2.2.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/invariant/download/invariant-2.2.2.tgz"
+    },
+    "invert-kv": {
+      "version": "1.0.0",
+      "from": "invert-kv@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/invert-kv/download/invert-kv-1.0.0.tgz",
+      "dev": true
+    },
+    "ipaddr.js": {
+      "version": "1.2.0",
+      "from": "ipaddr.js@1.2.0",
+      "resolved": "http://r.tnpm.oa.com/ipaddr.js/download/ipaddr.js-1.2.0.tgz",
+      "dev": true
+    },
+    "is-arrayish": {
+      "version": "0.2.1",
+      "from": "is-arrayish@>=0.2.1 <0.3.0",
+      "resolved": "http://r.tnpm.oa.com/is-arrayish/download/is-arrayish-0.2.1.tgz",
+      "dev": true
+    },
+    "is-binary-path": {
+      "version": "1.0.1",
+      "from": "is-binary-path@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/is-binary-path/download/is-binary-path-1.0.1.tgz",
+      "dev": true
+    },
+    "is-buffer": {
+      "version": "1.1.5",
+      "from": "is-buffer@>=1.0.2 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/is-buffer/download/is-buffer-1.1.5.tgz",
+      "dev": true
+    },
+    "is-builtin-module": {
+      "version": "1.0.0",
+      "from": "is-builtin-module@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/is-builtin-module/download/is-builtin-module-1.0.0.tgz",
+      "dev": true
+    },
+    "is-dotfile": {
+      "version": "1.0.2",
+      "from": "is-dotfile@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/is-dotfile/download/is-dotfile-1.0.2.tgz",
+      "dev": true
+    },
+    "is-equal-shallow": {
+      "version": "0.1.3",
+      "from": "is-equal-shallow@>=0.1.3 <0.2.0",
+      "resolved": "http://r.tnpm.oa.com/is-equal-shallow/download/is-equal-shallow-0.1.3.tgz",
+      "dev": true
+    },
+    "is-extendable": {
+      "version": "0.1.1",
+      "from": "is-extendable@>=0.1.1 <0.2.0",
+      "resolved": "http://r.tnpm.oa.com/is-extendable/download/is-extendable-0.1.1.tgz",
+      "dev": true
+    },
+    "is-extglob": {
+      "version": "1.0.0",
+      "from": "is-extglob@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/is-extglob/download/is-extglob-1.0.0.tgz",
+      "dev": true
+    },
+    "is-finite": {
+      "version": "1.0.2",
+      "from": "is-finite@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/is-finite/download/is-finite-1.0.2.tgz",
+      "dev": true
+    },
+    "is-fullwidth-code-point": {
+      "version": "1.0.0",
+      "from": "is-fullwidth-code-point@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/is-fullwidth-code-point/download/is-fullwidth-code-point-1.0.0.tgz",
+      "dev": true
+    },
+    "is-glob": {
+      "version": "2.0.1",
+      "from": "is-glob@>=2.0.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/is-glob/download/is-glob-2.0.1.tgz",
+      "dev": true
+    },
+    "is-number": {
+      "version": "2.1.0",
+      "from": "is-number@>=2.1.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/is-number/download/is-number-2.1.0.tgz",
+      "dev": true
+    },
+    "is-posix-bracket": {
+      "version": "0.1.1",
+      "from": "is-posix-bracket@>=0.1.0 <0.2.0",
+      "resolved": "http://r.tnpm.oa.com/is-posix-bracket/download/is-posix-bracket-0.1.1.tgz",
+      "dev": true
+    },
+    "is-primitive": {
+      "version": "2.0.0",
+      "from": "is-primitive@>=2.0.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/is-primitive/download/is-primitive-2.0.0.tgz",
+      "dev": true
+    },
+    "is-stream": {
+      "version": "1.1.0",
+      "from": "is-stream@>=1.0.1 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/is-stream/download/is-stream-1.1.0.tgz"
+    },
+    "is-utf8": {
+      "version": "0.2.1",
+      "from": "is-utf8@>=0.2.0 <0.3.0",
+      "resolved": "http://r.tnpm.oa.com/is-utf8/download/is-utf8-0.2.1.tgz",
+      "dev": true
+    },
+    "isarray": {
+      "version": "1.0.0",
+      "from": "isarray@>=1.0.0 <1.1.0",
+      "resolved": "http://r.tnpm.oa.com/isarray/download/isarray-1.0.0.tgz",
+      "dev": true
+    },
+    "isobject": {
+      "version": "2.1.0",
+      "from": "isobject@>=2.0.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/isobject/download/isobject-2.1.0.tgz",
+      "dev": true
+    },
+    "isomorphic-fetch": {
+      "version": "2.2.1",
+      "from": "isomorphic-fetch@>=2.1.1 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/isomorphic-fetch/download/isomorphic-fetch-2.2.1.tgz"
+    },
+    "js-tokens": {
+      "version": "3.0.1",
+      "from": "js-tokens@>=3.0.0 <4.0.0",
+      "resolved": "http://r.tnpm.oa.com/js-tokens/download/js-tokens-3.0.1.tgz"
+    },
+    "jsesc": {
+      "version": "1.3.0",
+      "from": "jsesc@>=1.3.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/jsesc/download/jsesc-1.3.0.tgz",
+      "dev": true
+    },
+    "json-loader": {
+      "version": "0.5.4",
+      "from": "json-loader@>=0.5.4 <0.6.0",
+      "resolved": "http://r.tnpm.oa.com/json-loader/download/json-loader-0.5.4.tgz",
+      "dev": true
+    },
+    "json-stable-stringify": {
+      "version": "1.0.1",
+      "from": "json-stable-stringify@>=1.0.1 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/json-stable-stringify/download/json-stable-stringify-1.0.1.tgz",
+      "dev": true
+    },
+    "json3": {
+      "version": "3.3.2",
+      "from": "json3@>=3.3.2 <4.0.0",
+      "resolved": "http://r.tnpm.oa.com/json3/download/json3-3.3.2.tgz",
+      "dev": true
+    },
+    "json5": {
+      "version": "0.5.1",
+      "from": "json5@>=0.5.0 <0.6.0",
+      "resolved": "http://r.tnpm.oa.com/json5/download/json5-0.5.1.tgz",
+      "dev": true
+    },
+    "jsonify": {
+      "version": "0.0.0",
+      "from": "jsonify@>=0.0.0 <0.1.0",
+      "resolved": "http://r.tnpm.oa.com/jsonify/download/jsonify-0.0.0.tgz",
+      "dev": true
+    },
+    "keycode": {
+      "version": "2.1.8",
+      "from": "keycode@>=2.1.1 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/keycode/download/keycode-2.1.8.tgz"
+    },
+    "kind-of": {
+      "version": "3.1.0",
+      "from": "kind-of@>=3.0.2 <4.0.0",
+      "resolved": "http://r.tnpm.oa.com/kind-of/download/kind-of-3.1.0.tgz",
+      "dev": true
+    },
+    "lazy-cache": {
+      "version": "1.0.4",
+      "from": "lazy-cache@>=1.0.3 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/lazy-cache/download/lazy-cache-1.0.4.tgz",
+      "dev": true
+    },
+    "lcid": {
+      "version": "1.0.0",
+      "from": "lcid@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/lcid/download/lcid-1.0.0.tgz",
+      "dev": true
+    },
+    "load-json-file": {
+      "version": "1.1.0",
+      "from": "load-json-file@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/load-json-file/download/load-json-file-1.1.0.tgz",
+      "dev": true
+    },
+    "loader-runner": {
+      "version": "2.3.0",
+      "from": "loader-runner@>=2.3.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/loader-runner/download/loader-runner-2.3.0.tgz",
+      "dev": true
+    },
+    "loader-utils": {
+      "version": "0.2.17",
+      "from": "loader-utils@>=0.2.16 <0.3.0",
+      "resolved": "http://r.tnpm.oa.com/loader-utils/download/loader-utils-0.2.17.tgz",
+      "dev": true
+    },
+    "lodash": {
+      "version": "4.17.4",
+      "from": "lodash@>=4.2.0 <5.0.0",
+      "resolved": "http://r.tnpm.oa.com/lodash/download/lodash-4.17.4.tgz",
+      "dev": true
+    },
+    "lodash.merge": {
+      "version": "4.6.0",
+      "from": "lodash.merge@>=4.6.0 <5.0.0",
+      "resolved": "http://r.tnpm.oa.com/lodash.merge/download/lodash.merge-4.6.0.tgz"
+    },
+    "lodash.throttle": {
+      "version": "4.1.1",
+      "from": "lodash.throttle@>=4.1.1 <5.0.0",
+      "resolved": "http://r.tnpm.oa.com/lodash.throttle/download/lodash.throttle-4.1.1.tgz"
+    },
+    "longest": {
+      "version": "1.0.1",
+      "from": "longest@>=1.0.1 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/longest/download/longest-1.0.1.tgz",
+      "dev": true
+    },
+    "loose-envify": {
+      "version": "1.3.1",
+      "from": "loose-envify@>=1.1.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/loose-envify/download/loose-envify-1.3.1.tgz"
+    },
+    "material-ui": {
+      "version": "0.17.1",
+      "from": "material-ui@latest",
+      "resolved": "http://r.tnpm.oa.com/material-ui/download/material-ui-0.17.1.tgz"
+    },
+    "media-typer": {
+      "version": "0.3.0",
+      "from": "media-typer@0.3.0",
+      "resolved": "http://r.tnpm.oa.com/media-typer/download/media-typer-0.3.0.tgz",
+      "dev": true
+    },
+    "memory-fs": {
+      "version": "0.4.1",
+      "from": "memory-fs@>=0.4.1 <0.5.0",
+      "resolved": "http://r.tnpm.oa.com/memory-fs/download/memory-fs-0.4.1.tgz",
+      "dev": true
+    },
+    "merge-descriptors": {
+      "version": "1.0.1",
+      "from": "merge-descriptors@1.0.1",
+      "resolved": "http://r.tnpm.oa.com/merge-descriptors/download/merge-descriptors-1.0.1.tgz",
+      "dev": true
+    },
+    "methods": {
+      "version": "1.1.2",
+      "from": "methods@>=1.1.2 <1.2.0",
+      "resolved": "http://r.tnpm.oa.com/methods/download/methods-1.1.2.tgz",
+      "dev": true
+    },
+    "micromatch": {
+      "version": "2.3.11",
+      "from": "micromatch@>=2.1.5 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/micromatch/download/micromatch-2.3.11.tgz",
+      "dev": true
+    },
+    "miller-rabin": {
+      "version": "4.0.0",
+      "from": "miller-rabin@>=4.0.0 <5.0.0",
+      "resolved": "http://r.tnpm.oa.com/miller-rabin/download/miller-rabin-4.0.0.tgz",
+      "dev": true
+    },
+    "mime": {
+      "version": "1.3.4",
+      "from": "mime@1.3.4",
+      "resolved": "http://r.tnpm.oa.com/mime/download/mime-1.3.4.tgz",
+      "dev": true
+    },
+    "mime-db": {
+      "version": "1.26.0",
+      "from": "mime-db@>=1.26.0 <1.27.0",
+      "resolved": "http://r.tnpm.oa.com/mime-db/download/mime-db-1.26.0.tgz",
+      "dev": true
+    },
+    "mime-types": {
+      "version": "2.1.14",
+      "from": "mime-types@>=2.1.11 <2.2.0",
+      "resolved": "http://r.tnpm.oa.com/mime-types/download/mime-types-2.1.14.tgz",
+      "dev": true
+    },
+    "min-document": {
+      "version": "2.19.0",
+      "from": "min-document@>=2.19.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/min-document/download/min-document-2.19.0.tgz",
+      "dev": true
+    },
+    "minimalistic-assert": {
+      "version": "1.0.0",
+      "from": "minimalistic-assert@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/minimalistic-assert/download/minimalistic-assert-1.0.0.tgz",
+      "dev": true
+    },
+    "minimalistic-crypto-utils": {
+      "version": "1.0.1",
+      "from": "minimalistic-crypto-utils@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/minimalistic-crypto-utils/download/minimalistic-crypto-utils-1.0.1.tgz",
+      "dev": true
+    },
+    "minimatch": {
+      "version": "3.0.3",
+      "from": "minimatch@>=3.0.2 <4.0.0",
+      "resolved": "http://r.tnpm.oa.com/minimatch/download/minimatch-3.0.3.tgz",
+      "dev": true
+    },
+    "minimist": {
+      "version": "0.0.8",
+      "from": "minimist@0.0.8",
+      "resolved": "http://r.tnpm.oa.com/minimist/download/minimist-0.0.8.tgz",
+      "dev": true
+    },
+    "mkdirp": {
+      "version": "0.5.1",
+      "from": "mkdirp@>=0.5.1 <0.6.0",
+      "resolved": "http://r.tnpm.oa.com/mkdirp/download/mkdirp-0.5.1.tgz",
+      "dev": true
+    },
+    "ms": {
+      "version": "0.7.2",
+      "from": "ms@0.7.2",
+      "resolved": "http://r.tnpm.oa.com/ms/download/ms-0.7.2.tgz",
+      "dev": true
+    },
+    "negotiator": {
+      "version": "0.6.1",
+      "from": "negotiator@0.6.1",
+      "resolved": "http://r.tnpm.oa.com/negotiator/download/negotiator-0.6.1.tgz",
+      "dev": true
+    },
+    "node-fetch": {
+      "version": "1.6.3",
+      "from": "node-fetch@>=1.0.1 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/node-fetch/download/node-fetch-1.6.3.tgz"
+    },
+    "node-libs-browser": {
+      "version": "2.0.0",
+      "from": "node-libs-browser@>=2.0.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/node-libs-browser/download/node-libs-browser-2.0.0.tgz",
+      "dev": true,
+      "dependencies": {
+        "process": {
+          "version": "0.11.9",
+          "from": "process@>=0.11.0 <0.12.0",
+          "resolved": "http://r.tnpm.oa.com/process/download/process-0.11.9.tgz",
+          "dev": true
+        }
+      }
+    },
+    "normalize-package-data": {
+      "version": "2.3.6",
+      "from": "normalize-package-data@>=2.3.2 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/normalize-package-data/download/normalize-package-data-2.3.6.tgz",
+      "dev": true
+    },
+    "normalize-path": {
+      "version": "2.0.1",
+      "from": "normalize-path@>=2.0.1 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/normalize-path/download/normalize-path-2.0.1.tgz",
+      "dev": true
+    },
+    "number-is-nan": {
+      "version": "1.0.1",
+      "from": "number-is-nan@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/number-is-nan/download/number-is-nan-1.0.1.tgz",
+      "dev": true
+    },
+    "object-assign": {
+      "version": "4.1.1",
+      "from": "object-assign@>=4.1.0 <5.0.0",
+      "resolved": "http://r.tnpm.oa.com/object-assign/download/object-assign-4.1.1.tgz"
+    },
+    "object.omit": {
+      "version": "2.0.1",
+      "from": "object.omit@>=2.0.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/object.omit/download/object.omit-2.0.1.tgz",
+      "dev": true
+    },
+    "obuf": {
+      "version": "1.1.1",
+      "from": "obuf@>=1.1.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/obuf/download/obuf-1.1.1.tgz",
+      "dev": true
+    },
+    "on-finished": {
+      "version": "2.3.0",
+      "from": "on-finished@>=2.3.0 <2.4.0",
+      "resolved": "http://r.tnpm.oa.com/on-finished/download/on-finished-2.3.0.tgz",
+      "dev": true
+    },
+    "on-headers": {
+      "version": "1.0.1",
+      "from": "on-headers@>=1.0.1 <1.1.0",
+      "resolved": "http://r.tnpm.oa.com/on-headers/download/on-headers-1.0.1.tgz",
+      "dev": true
+    },
+    "opn": {
+      "version": "4.0.2",
+      "from": "opn@4.0.2",
+      "resolved": "http://r.tnpm.oa.com/opn/download/opn-4.0.2.tgz",
+      "dev": true
+    },
+    "original": {
+      "version": "1.0.0",
+      "from": "original@>=0.0.5",
+      "resolved": "http://r.tnpm.oa.com/original/download/original-1.0.0.tgz",
+      "dev": true,
+      "dependencies": {
+        "url-parse": {
+          "version": "1.0.5",
+          "from": "url-parse@>=1.0.0 <1.1.0",
+          "resolved": "http://r.tnpm.oa.com/url-parse/download/url-parse-1.0.5.tgz",
+          "dev": true
+        }
+      }
+    },
+    "os-browserify": {
+      "version": "0.2.1",
+      "from": "os-browserify@>=0.2.0 <0.3.0",
+      "resolved": "http://r.tnpm.oa.com/os-browserify/download/os-browserify-0.2.1.tgz",
+      "dev": true
+    },
+    "os-homedir": {
+      "version": "1.0.2",
+      "from": "os-homedir@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/os-homedir/download/os-homedir-1.0.2.tgz",
+      "dev": true
+    },
+    "os-locale": {
+      "version": "1.4.0",
+      "from": "os-locale@>=1.4.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/os-locale/download/os-locale-1.4.0.tgz",
+      "dev": true
+    },
+    "os-tmpdir": {
+      "version": "1.0.2",
+      "from": "os-tmpdir@>=1.0.1 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/os-tmpdir/download/os-tmpdir-1.0.2.tgz",
+      "dev": true
+    },
+    "pako": {
+      "version": "0.2.9",
+      "from": "pako@>=0.2.0 <0.3.0",
+      "resolved": "http://r.tnpm.oa.com/pako/download/pako-0.2.9.tgz",
+      "dev": true
+    },
+    "parse-asn1": {
+      "version": "5.1.0",
+      "from": "parse-asn1@>=5.0.0 <6.0.0",
+      "resolved": "http://r.tnpm.oa.com/parse-asn1/download/parse-asn1-5.1.0.tgz",
+      "dev": true
+    },
+    "parse-glob": {
+      "version": "3.0.4",
+      "from": "parse-glob@>=3.0.4 <4.0.0",
+      "resolved": "http://r.tnpm.oa.com/parse-glob/download/parse-glob-3.0.4.tgz",
+      "dev": true
+    },
+    "parse-json": {
+      "version": "2.2.0",
+      "from": "parse-json@>=2.2.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/parse-json/download/parse-json-2.2.0.tgz",
+      "dev": true
+    },
+    "parseurl": {
+      "version": "1.3.1",
+      "from": "parseurl@>=1.3.1 <1.4.0",
+      "resolved": "http://r.tnpm.oa.com/parseurl/download/parseurl-1.3.1.tgz",
+      "dev": true
+    },
+    "path-browserify": {
+      "version": "0.0.0",
+      "from": "path-browserify@0.0.0",
+      "resolved": "http://r.tnpm.oa.com/path-browserify/download/path-browserify-0.0.0.tgz",
+      "dev": true
+    },
+    "path-exists": {
+      "version": "2.1.0",
+      "from": "path-exists@>=2.0.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/path-exists/download/path-exists-2.1.0.tgz",
+      "dev": true
+    },
+    "path-is-absolute": {
+      "version": "1.0.1",
+      "from": "path-is-absolute@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/path-is-absolute/download/path-is-absolute-1.0.1.tgz",
+      "dev": true
+    },
+    "path-to-regexp": {
+      "version": "0.1.7",
+      "from": "path-to-regexp@0.1.7",
+      "resolved": "http://r.tnpm.oa.com/path-to-regexp/download/path-to-regexp-0.1.7.tgz",
+      "dev": true
+    },
+    "path-type": {
+      "version": "1.1.0",
+      "from": "path-type@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/path-type/download/path-type-1.1.0.tgz",
+      "dev": true
+    },
+    "pbkdf2": {
+      "version": "3.0.9",
+      "from": "pbkdf2@>=3.0.3 <4.0.0",
+      "resolved": "http://r.tnpm.oa.com/pbkdf2/download/pbkdf2-3.0.9.tgz",
+      "dev": true
+    },
+    "pify": {
+      "version": "2.3.0",
+      "from": "pify@>=2.0.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/pify/download/pify-2.3.0.tgz",
+      "dev": true
+    },
+    "pinkie": {
+      "version": "2.0.4",
+      "from": "pinkie@>=2.0.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/pinkie/download/pinkie-2.0.4.tgz",
+      "dev": true
+    },
+    "pinkie-promise": {
+      "version": "2.0.1",
+      "from": "pinkie-promise@>=2.0.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/pinkie-promise/download/pinkie-promise-2.0.1.tgz",
+      "dev": true
+    },
+    "pkg-dir": {
+      "version": "1.0.0",
+      "from": "pkg-dir@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/pkg-dir/download/pkg-dir-1.0.0.tgz",
+      "dev": true
+    },
+    "portfinder": {
+      "version": "1.0.13",
+      "from": "portfinder@>=1.0.9 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/portfinder/download/portfinder-1.0.13.tgz",
+      "dev": true,
+      "dependencies": {
+        "async": {
+          "version": "1.5.2",
+          "from": "async@>=1.5.2 <2.0.0",
+          "resolved": "http://r.tnpm.oa.com/async/download/async-1.5.2.tgz",
+          "dev": true
+        }
+      }
+    },
+    "preserve": {
+      "version": "0.2.0",
+      "from": "preserve@>=0.2.0 <0.3.0",
+      "resolved": "http://r.tnpm.oa.com/preserve/download/preserve-0.2.0.tgz",
+      "dev": true
+    },
+    "private": {
+      "version": "0.1.7",
+      "from": "private@>=0.1.6 <0.2.0",
+      "resolved": "http://r.tnpm.oa.com/private/download/private-0.1.7.tgz",
+      "dev": true
+    },
+    "process": {
+      "version": "0.5.2",
+      "from": "process@>=0.5.1 <0.6.0",
+      "resolved": "http://r.tnpm.oa.com/process/download/process-0.5.2.tgz",
+      "dev": true
+    },
+    "process-nextick-args": {
+      "version": "1.0.7",
+      "from": "process-nextick-args@>=1.0.6 <1.1.0",
+      "resolved": "http://r.tnpm.oa.com/process-nextick-args/download/process-nextick-args-1.0.7.tgz",
+      "dev": true
+    },
+    "promise": {
+      "version": "7.1.1",
+      "from": "promise@>=7.1.1 <8.0.0",
+      "resolved": "http://r.tnpm.oa.com/promise/download/promise-7.1.1.tgz"
+    },
+    "proxy-addr": {
+      "version": "1.1.3",
+      "from": "proxy-addr@>=1.1.3 <1.2.0",
+      "resolved": "http://r.tnpm.oa.com/proxy-addr/download/proxy-addr-1.1.3.tgz",
+      "dev": true
+    },
+    "prr": {
+      "version": "0.0.0",
+      "from": "prr@>=0.0.0 <0.1.0",
+      "resolved": "http://r.tnpm.oa.com/prr/download/prr-0.0.0.tgz",
+      "dev": true
+    },
+    "public-encrypt": {
+      "version": "4.0.0",
+      "from": "public-encrypt@>=4.0.0 <5.0.0",
+      "resolved": "http://r.tnpm.oa.com/public-encrypt/download/public-encrypt-4.0.0.tgz",
+      "dev": true
+    },
+    "punycode": {
+      "version": "1.4.1",
+      "from": "punycode@>=1.2.4 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/punycode/download/punycode-1.4.1.tgz",
+      "dev": true
+    },
+    "qs": {
+      "version": "6.4.0",
+      "from": "qs@6.4.0",
+      "resolved": "http://r.tnpm.oa.com/qs/download/qs-6.4.0.tgz",
+      "dev": true
+    },
+    "querystring": {
+      "version": "0.2.0",
+      "from": "querystring@0.2.0",
+      "resolved": "http://r.tnpm.oa.com/querystring/download/querystring-0.2.0.tgz",
+      "dev": true
+    },
+    "querystring-es3": {
+      "version": "0.2.1",
+      "from": "querystring-es3@>=0.2.0 <0.3.0",
+      "resolved": "http://r.tnpm.oa.com/querystring-es3/download/querystring-es3-0.2.1.tgz",
+      "dev": true
+    },
+    "querystringify": {
+      "version": "0.0.4",
+      "from": "querystringify@>=0.0.0 <0.1.0",
+      "resolved": "http://r.tnpm.oa.com/querystringify/download/querystringify-0.0.4.tgz",
+      "dev": true
+    },
+    "randomatic": {
+      "version": "1.1.6",
+      "from": "randomatic@>=1.1.3 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/randomatic/download/randomatic-1.1.6.tgz",
+      "dev": true
+    },
+    "randombytes": {
+      "version": "2.0.3",
+      "from": "randombytes@>=2.0.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/randombytes/download/randombytes-2.0.3.tgz",
+      "dev": true
+    },
+    "range-parser": {
+      "version": "1.2.0",
+      "from": "range-parser@>=1.2.0 <1.3.0",
+      "resolved": "http://r.tnpm.oa.com/range-parser/download/range-parser-1.2.0.tgz",
+      "dev": true
+    },
+    "react": {
+      "version": "15.4.2",
+      "from": "react@>=15.4.2 <16.0.0",
+      "resolved": "http://r.tnpm.oa.com/react/download/react-15.4.2.tgz"
+    },
+    "react-addons-create-fragment": {
+      "version": "15.4.2",
+      "from": "react-addons-create-fragment@>=15.0.0 <16.0.0",
+      "resolved": "http://r.tnpm.oa.com/react-addons-create-fragment/download/react-addons-create-fragment-15.4.2.tgz"
+    },
+    "react-addons-shallow-compare": {
+      "version": "15.4.2",
+      "from": "react-addons-shallow-compare@>=15.4.2 <16.0.0",
+      "resolved": "http://r.tnpm.oa.com/react-addons-shallow-compare/download/react-addons-shallow-compare-15.4.2.tgz"
+    },
+    "react-addons-transition-group": {
+      "version": "15.4.2",
+      "from": "react-addons-transition-group@>=15.0.0 <16.0.0",
+      "resolved": "http://r.tnpm.oa.com/react-addons-transition-group/download/react-addons-transition-group-15.4.2.tgz"
+    },
+    "react-deep-force-update": {
+      "version": "2.0.1",
+      "from": "react-deep-force-update@>=2.0.1 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/react-deep-force-update/download/react-deep-force-update-2.0.1.tgz",
+      "dev": true
+    },
+    "react-dom": {
+      "version": "15.4.2",
+      "from": "react-dom@>=15.4.2 <16.0.0",
+      "resolved": "http://r.tnpm.oa.com/react-dom/download/react-dom-15.4.2.tgz"
+    },
+    "react-event-listener": {
+      "version": "0.4.3",
+      "from": "react-event-listener@>=0.4.0 <0.5.0",
+      "resolved": "http://r.tnpm.oa.com/react-event-listener/download/react-event-listener-0.4.3.tgz"
+    },
+    "react-hot-loader": {
+      "version": "3.0.0-beta.6",
+      "from": "react-hot-loader@>=3.0.0-beta.6 <4.0.0",
+      "resolved": "http://r.tnpm.oa.com/react-hot-loader/download/react-hot-loader-3.0.0-beta.6.tgz",
+      "dev": true,
+      "dependencies": {
+        "source-map": {
+          "version": "0.4.4",
+          "from": "source-map@>=0.4.4 <0.5.0",
+          "resolved": "http://r.tnpm.oa.com/source-map/download/source-map-0.4.4.tgz",
+          "dev": true
+        }
+      }
+    },
+    "react-proxy": {
+      "version": "3.0.0-alpha.1",
+      "from": "react-proxy@>=3.0.0-alpha.0 <4.0.0",
+      "resolved": "http://r.tnpm.oa.com/react-proxy/download/react-proxy-3.0.0-alpha.1.tgz",
+      "dev": true
+    },
+    "react-router": {
+      "version": "4.0.0",
+      "from": "react-router@latest",
+      "resolved": "http://r.tnpm.oa.com/react-router/download/react-router-4.0.0.tgz",
+      "dependencies": {
+        "isarray": {
+          "version": "0.0.1",
+          "from": "isarray@0.0.1",
+          "resolved": "https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz"
+        },
+        "path-to-regexp": {
+          "version": "1.7.0",
+          "from": "path-to-regexp@>=1.5.3 <2.0.0",
+          "resolved": "http://r.tnpm.oa.com/path-to-regexp/download/path-to-regexp-1.7.0.tgz"
+        }
+      }
+    },
+    "react-tap-event-plugin": {
+      "version": "2.0.1",
+      "from": "react-tap-event-plugin@latest",
+      "resolved": "http://r.tnpm.oa.com/react-tap-event-plugin/download/react-tap-event-plugin-2.0.1.tgz"
+    },
+    "read-pkg": {
+      "version": "1.1.0",
+      "from": "read-pkg@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/read-pkg/download/read-pkg-1.1.0.tgz",
+      "dev": true
+    },
+    "read-pkg-up": {
+      "version": "1.0.1",
+      "from": "read-pkg-up@>=1.0.1 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/read-pkg-up/download/read-pkg-up-1.0.1.tgz",
+      "dev": true
+    },
+    "readable-stream": {
+      "version": "2.2.6",
+      "from": "readable-stream@>=2.0.1 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/readable-stream/download/readable-stream-2.2.6.tgz",
+      "dev": true
+    },
+    "readdirp": {
+      "version": "2.1.0",
+      "from": "readdirp@>=2.0.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/readdirp/download/readdirp-2.1.0.tgz",
+      "dev": true
+    },
+    "recompose": {
+      "version": "0.22.0",
+      "from": "recompose@>=0.22.0 <0.23.0",
+      "resolved": "http://r.tnpm.oa.com/recompose/download/recompose-0.22.0.tgz"
+    },
+    "redbox-react": {
+      "version": "1.3.4",
+      "from": "redbox-react@>=1.2.5 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/redbox-react/download/redbox-react-1.3.4.tgz",
+      "dev": true
+    },
+    "regenerate": {
+      "version": "1.3.2",
+      "from": "regenerate@>=1.2.1 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/regenerate/download/regenerate-1.3.2.tgz",
+      "dev": true
+    },
+    "regenerator-runtime": {
+      "version": "0.10.3",
+      "from": "regenerator-runtime@>=0.10.0 <0.11.0",
+      "resolved": "http://r.tnpm.oa.com/regenerator-runtime/download/regenerator-runtime-0.10.3.tgz"
+    },
+    "regenerator-transform": {
+      "version": "0.9.8",
+      "from": "regenerator-transform@0.9.8",
+      "resolved": "http://r.tnpm.oa.com/regenerator-transform/download/regenerator-transform-0.9.8.tgz",
+      "dev": true
+    },
+    "regex-cache": {
+      "version": "0.4.3",
+      "from": "regex-cache@>=0.4.2 <0.5.0",
+      "resolved": "http://r.tnpm.oa.com/regex-cache/download/regex-cache-0.4.3.tgz",
+      "dev": true
+    },
+    "regexpu-core": {
+      "version": "2.0.0",
+      "from": "regexpu-core@>=2.0.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/regexpu-core/download/regexpu-core-2.0.0.tgz",
+      "dev": true
+    },
+    "regjsgen": {
+      "version": "0.2.0",
+      "from": "regjsgen@>=0.2.0 <0.3.0",
+      "resolved": "http://r.tnpm.oa.com/regjsgen/download/regjsgen-0.2.0.tgz",
+      "dev": true
+    },
+    "regjsparser": {
+      "version": "0.1.5",
+      "from": "regjsparser@>=0.1.4 <0.2.0",
+      "resolved": "http://r.tnpm.oa.com/regjsparser/download/regjsparser-0.1.5.tgz",
+      "dev": true,
+      "dependencies": {
+        "jsesc": {
+          "version": "0.5.0",
+          "from": "jsesc@>=0.5.0 <0.6.0",
+          "resolved": "http://r.tnpm.oa.com/jsesc/download/jsesc-0.5.0.tgz",
+          "dev": true
+        }
+      }
+    },
+    "repeat-element": {
+      "version": "1.1.2",
+      "from": "repeat-element@>=1.1.2 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/repeat-element/download/repeat-element-1.1.2.tgz",
+      "dev": true
+    },
+    "repeat-string": {
+      "version": "1.6.1",
+      "from": "repeat-string@>=1.5.2 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/repeat-string/download/repeat-string-1.6.1.tgz",
+      "dev": true
+    },
+    "repeating": {
+      "version": "2.0.1",
+      "from": "repeating@>=2.0.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/repeating/download/repeating-2.0.1.tgz",
+      "dev": true
+    },
+    "require-directory": {
+      "version": "2.1.1",
+      "from": "require-directory@>=2.1.1 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/require-directory/download/require-directory-2.1.1.tgz",
+      "dev": true
+    },
+    "require-main-filename": {
+      "version": "1.0.1",
+      "from": "require-main-filename@>=1.0.1 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/require-main-filename/download/require-main-filename-1.0.1.tgz",
+      "dev": true
+    },
+    "requires-port": {
+      "version": "1.0.0",
+      "from": "requires-port@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/requires-port/download/requires-port-1.0.0.tgz",
+      "dev": true
+    },
+    "resolve-pathname": {
+      "version": "2.0.2",
+      "from": "resolve-pathname@>=2.0.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/resolve-pathname/download/resolve-pathname-2.0.2.tgz"
+    },
+    "right-align": {
+      "version": "0.1.3",
+      "from": "right-align@>=0.1.1 <0.2.0",
+      "resolved": "http://r.tnpm.oa.com/right-align/download/right-align-0.1.3.tgz",
+      "dev": true
+    },
+    "ripemd160": {
+      "version": "1.0.1",
+      "from": "ripemd160@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/ripemd160/download/ripemd160-1.0.1.tgz",
+      "dev": true
+    },
+    "select-hose": {
+      "version": "2.0.0",
+      "from": "select-hose@>=2.0.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/select-hose/download/select-hose-2.0.0.tgz",
+      "dev": true
+    },
+    "semver": {
+      "version": "5.3.0",
+      "from": "semver@>=2.0.0 <3.0.0||>=3.0.0 <4.0.0||>=4.0.0 <5.0.0||>=5.0.0 <6.0.0",
+      "resolved": "http://r.tnpm.oa.com/semver/download/semver-5.3.0.tgz",
+      "dev": true
+    },
+    "send": {
+      "version": "0.15.1",
+      "from": "send@0.15.1",
+      "resolved": "http://r.tnpm.oa.com/send/download/send-0.15.1.tgz",
+      "dev": true,
+      "dependencies": {
+        "debug": {
+          "version": "2.6.1",
+          "from": "debug@2.6.1",
+          "resolved": "http://r.tnpm.oa.com/debug/download/debug-2.6.1.tgz",
+          "dev": true
+        }
+      }
+    },
+    "serve-index": {
+      "version": "1.8.0",
+      "from": "serve-index@>=1.7.2 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/serve-index/download/serve-index-1.8.0.tgz",
+      "dev": true,
+      "dependencies": {
+        "debug": {
+          "version": "2.2.0",
+          "from": "debug@>=2.2.0 <2.3.0",
+          "resolved": "http://r.tnpm.oa.com/debug/download/debug-2.2.0.tgz",
+          "dev": true
+        },
+        "http-errors": {
+          "version": "1.5.1",
+          "from": "http-errors@>=1.5.0 <1.6.0",
+          "resolved": "http://r.tnpm.oa.com/http-errors/download/http-errors-1.5.1.tgz",
+          "dev": true
+        },
+        "ms": {
+          "version": "0.7.1",
+          "from": "ms@0.7.1",
+          "resolved": "http://r.tnpm.oa.com/ms/download/ms-0.7.1.tgz",
+          "dev": true
+        },
+        "setprototypeof": {
+          "version": "1.0.2",
+          "from": "setprototypeof@1.0.2",
+          "resolved": "http://r.tnpm.oa.com/setprototypeof/download/setprototypeof-1.0.2.tgz",
+          "dev": true
+        }
+      }
+    },
+    "serve-static": {
+      "version": "1.12.1",
+      "from": "serve-static@1.12.1",
+      "resolved": "http://r.tnpm.oa.com/serve-static/download/serve-static-1.12.1.tgz",
+      "dev": true
+    },
+    "set-blocking": {
+      "version": "2.0.0",
+      "from": "set-blocking@>=2.0.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/set-blocking/download/set-blocking-2.0.0.tgz",
+      "dev": true
+    },
+    "set-immediate-shim": {
+      "version": "1.0.1",
+      "from": "set-immediate-shim@>=1.0.1 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/set-immediate-shim/download/set-immediate-shim-1.0.1.tgz",
+      "dev": true
+    },
+    "setimmediate": {
+      "version": "1.0.5",
+      "from": "setimmediate@>=1.0.5 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/setimmediate/download/setimmediate-1.0.5.tgz"
+    },
+    "setprototypeof": {
+      "version": "1.0.3",
+      "from": "setprototypeof@1.0.3",
+      "resolved": "http://r.tnpm.oa.com/setprototypeof/download/setprototypeof-1.0.3.tgz",
+      "dev": true
+    },
+    "sha.js": {
+      "version": "2.4.8",
+      "from": "sha.js@>=2.3.6 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/sha.js/download/sha.js-2.4.8.tgz",
+      "dev": true
+    },
+    "simple-assign": {
+      "version": "0.1.0",
+      "from": "simple-assign@>=0.1.0 <0.2.0",
+      "resolved": "http://r.tnpm.oa.com/simple-assign/download/simple-assign-0.1.0.tgz"
+    },
+    "slash": {
+      "version": "1.0.0",
+      "from": "slash@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/slash/download/slash-1.0.0.tgz",
+      "dev": true
+    },
+    "sockjs": {
+      "version": "0.3.18",
+      "from": "sockjs@0.3.18",
+      "resolved": "http://r.tnpm.oa.com/sockjs/download/sockjs-0.3.18.tgz",
+      "dev": true
+    },
+    "sockjs-client": {
+      "version": "1.1.2",
+      "from": "sockjs-client@1.1.2",
+      "resolved": "http://r.tnpm.oa.com/sockjs-client/download/sockjs-client-1.1.2.tgz",
+      "dev": true,
+      "dependencies": {
+        "faye-websocket": {
+          "version": "0.11.1",
+          "from": "faye-websocket@>=0.11.0 <0.12.0",
+          "resolved": "http://r.tnpm.oa.com/faye-websocket/download/faye-websocket-0.11.1.tgz",
+          "dev": true
+        }
+      }
+    },
+    "source-list-map": {
+      "version": "0.1.8",
+      "from": "source-list-map@>=0.1.7 <0.2.0",
+      "resolved": "http://r.tnpm.oa.com/source-list-map/download/source-list-map-0.1.8.tgz",
+      "dev": true
+    },
+    "source-map": {
+      "version": "0.5.6",
+      "from": "source-map@>=0.5.0 <0.6.0",
+      "resolved": "http://r.tnpm.oa.com/source-map/download/source-map-0.5.6.tgz",
+      "dev": true
+    },
+    "source-map-support": {
+      "version": "0.4.13",
+      "from": "source-map-support@>=0.4.2 <0.5.0",
+      "resolved": "http://r.tnpm.oa.com/source-map-support/download/source-map-support-0.4.13.tgz",
+      "dev": true
+    },
+    "spdx-correct": {
+      "version": "1.0.2",
+      "from": "spdx-correct@>=1.0.0 <1.1.0",
+      "resolved": "http://r.tnpm.oa.com/spdx-correct/download/spdx-correct-1.0.2.tgz",
+      "dev": true
+    },
+    "spdx-expression-parse": {
+      "version": "1.0.4",
+      "from": "spdx-expression-parse@>=1.0.0 <1.1.0",
+      "resolved": "http://r.tnpm.oa.com/spdx-expression-parse/download/spdx-expression-parse-1.0.4.tgz",
+      "dev": true
+    },
+    "spdx-license-ids": {
+      "version": "1.2.2",
+      "from": "spdx-license-ids@>=1.0.2 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/spdx-license-ids/download/spdx-license-ids-1.2.2.tgz",
+      "dev": true
+    },
+    "spdy": {
+      "version": "3.4.4",
+      "from": "spdy@>=3.4.1 <4.0.0",
+      "resolved": "http://r.tnpm.oa.com/spdy/download/spdy-3.4.4.tgz",
+      "dev": true
+    },
+    "spdy-transport": {
+      "version": "2.0.18",
+      "from": "spdy-transport@>=2.0.15 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/spdy-transport/download/spdy-transport-2.0.18.tgz",
+      "dev": true
+    },
+    "stackframe": {
+      "version": "0.3.1",
+      "from": "stackframe@>=0.3.1 <0.4.0",
+      "resolved": "http://r.tnpm.oa.com/stackframe/download/stackframe-0.3.1.tgz",
+      "dev": true
+    },
+    "statuses": {
+      "version": "1.3.1",
+      "from": "statuses@>=1.3.1 <1.4.0",
+      "resolved": "http://r.tnpm.oa.com/statuses/download/statuses-1.3.1.tgz",
+      "dev": true
+    },
+    "stream-browserify": {
+      "version": "2.0.1",
+      "from": "stream-browserify@>=2.0.1 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/stream-browserify/download/stream-browserify-2.0.1.tgz",
+      "dev": true
+    },
+    "stream-http": {
+      "version": "2.6.3",
+      "from": "stream-http@>=2.3.1 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/stream-http/download/stream-http-2.6.3.tgz",
+      "dev": true
+    },
+    "string_decoder": {
+      "version": "0.10.31",
+      "from": "string_decoder@>=0.10.0 <0.11.0",
+      "resolved": "http://r.tnpm.oa.com/string_decoder/download/string_decoder-0.10.31.tgz",
+      "dev": true
+    },
+    "string-width": {
+      "version": "1.0.2",
+      "from": "string-width@>=1.0.2 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/string-width/download/string-width-1.0.2.tgz",
+      "dev": true
+    },
+    "strip-ansi": {
+      "version": "3.0.1",
+      "from": "strip-ansi@>=3.0.0 <4.0.0",
+      "resolved": "http://r.tnpm.oa.com/strip-ansi/download/strip-ansi-3.0.1.tgz",
+      "dev": true
+    },
+    "strip-bom": {
+      "version": "2.0.0",
+      "from": "strip-bom@>=2.0.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/strip-bom/download/strip-bom-2.0.0.tgz",
+      "dev": true
+    },
+    "supports-color": {
+      "version": "2.0.0",
+      "from": "supports-color@>=2.0.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/supports-color/download/supports-color-2.0.0.tgz",
+      "dev": true
+    },
+    "symbol-observable": {
+      "version": "1.0.4",
+      "from": "symbol-observable@>=1.0.4 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/symbol-observable/download/symbol-observable-1.0.4.tgz"
+    },
+    "tapable": {
+      "version": "0.2.6",
+      "from": "tapable@>=0.2.5 <0.3.0",
+      "resolved": "http://r.tnpm.oa.com/tapable/download/tapable-0.2.6.tgz",
+      "dev": true
+    },
+    "timers-browserify": {
+      "version": "2.0.2",
+      "from": "timers-browserify@>=2.0.2 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/timers-browserify/download/timers-browserify-2.0.2.tgz",
+      "dev": true
+    },
+    "to-arraybuffer": {
+      "version": "1.0.1",
+      "from": "to-arraybuffer@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/to-arraybuffer/download/to-arraybuffer-1.0.1.tgz",
+      "dev": true
+    },
+    "to-fast-properties": {
+      "version": "1.0.2",
+      "from": "to-fast-properties@>=1.0.1 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/to-fast-properties/download/to-fast-properties-1.0.2.tgz",
+      "dev": true
+    },
+    "trim-right": {
+      "version": "1.0.1",
+      "from": "trim-right@>=1.0.1 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/trim-right/download/trim-right-1.0.1.tgz",
+      "dev": true
+    },
+    "tty-browserify": {
+      "version": "0.0.0",
+      "from": "tty-browserify@0.0.0",
+      "resolved": "http://r.tnpm.oa.com/tty-browserify/download/tty-browserify-0.0.0.tgz",
+      "dev": true
+    },
+    "type-is": {
+      "version": "1.6.14",
+      "from": "type-is@>=1.6.14 <1.7.0",
+      "resolved": "http://r.tnpm.oa.com/type-is/download/type-is-1.6.14.tgz",
+      "dev": true
+    },
+    "ua-parser-js": {
+      "version": "0.7.12",
+      "from": "ua-parser-js@>=0.7.9 <0.8.0",
+      "resolved": "http://r.tnpm.oa.com/ua-parser-js/download/ua-parser-js-0.7.12.tgz"
+    },
+    "uglify-js": {
+      "version": "2.8.13",
+      "from": "uglify-js@>=2.7.5 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/uglify-js/download/uglify-js-2.8.13.tgz",
+      "dev": true,
+      "dependencies": {
+        "yargs": {
+          "version": "3.10.0",
+          "from": "yargs@>=3.10.0 <3.11.0",
+          "resolved": "http://r.tnpm.oa.com/yargs/download/yargs-3.10.0.tgz",
+          "dev": true
+        }
+      }
+    },
+    "uglify-to-browserify": {
+      "version": "1.0.2",
+      "from": "uglify-to-browserify@>=1.0.0 <1.1.0",
+      "resolved": "http://r.tnpm.oa.com/uglify-to-browserify/download/uglify-to-browserify-1.0.2.tgz",
+      "dev": true
+    },
+    "unpipe": {
+      "version": "1.0.0",
+      "from": "unpipe@>=1.0.0 <1.1.0",
+      "resolved": "http://r.tnpm.oa.com/unpipe/download/unpipe-1.0.0.tgz",
+      "dev": true
+    },
+    "url": {
+      "version": "0.11.0",
+      "from": "url@>=0.11.0 <0.12.0",
+      "resolved": "http://r.tnpm.oa.com/url/download/url-0.11.0.tgz",
+      "dev": true,
+      "dependencies": {
+        "punycode": {
+          "version": "1.3.2",
+          "from": "punycode@1.3.2",
+          "resolved": "http://r.tnpm.oa.com/punycode/download/punycode-1.3.2.tgz",
+          "dev": true
+        }
+      }
+    },
+    "url-parse": {
+      "version": "1.1.8",
+      "from": "url-parse@>=1.1.1 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/url-parse/download/url-parse-1.1.8.tgz",
+      "dev": true
+    },
+    "util": {
+      "version": "0.10.3",
+      "from": "util@>=0.10.3 <0.11.0",
+      "resolved": "http://r.tnpm.oa.com/util/download/util-0.10.3.tgz",
+      "dev": true,
+      "dependencies": {
+        "inherits": {
+          "version": "2.0.1",
+          "from": "inherits@2.0.1",
+          "resolved": "http://r.tnpm.oa.com/inherits/download/inherits-2.0.1.tgz",
+          "dev": true
+        }
+      }
+    },
+    "util-deprecate": {
+      "version": "1.0.2",
+      "from": "util-deprecate@>=1.0.1 <1.1.0",
+      "resolved": "http://r.tnpm.oa.com/util-deprecate/download/util-deprecate-1.0.2.tgz",
+      "dev": true
+    },
+    "utils-merge": {
+      "version": "1.0.0",
+      "from": "utils-merge@1.0.0",
+      "resolved": "http://r.tnpm.oa.com/utils-merge/download/utils-merge-1.0.0.tgz",
+      "dev": true
+    },
+    "uuid": {
+      "version": "2.0.3",
+      "from": "uuid@>=2.0.2 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/uuid/download/uuid-2.0.3.tgz",
+      "dev": true
+    },
+    "validate-npm-package-license": {
+      "version": "3.0.1",
+      "from": "validate-npm-package-license@>=3.0.1 <4.0.0",
+      "resolved": "http://r.tnpm.oa.com/validate-npm-package-license/download/validate-npm-package-license-3.0.1.tgz",
+      "dev": true
+    },
+    "value-equal": {
+      "version": "0.2.0",
+      "from": "value-equal@>=0.2.0 <0.3.0",
+      "resolved": "http://r.tnpm.oa.com/value-equal/download/value-equal-0.2.0.tgz"
+    },
+    "vary": {
+      "version": "1.1.0",
+      "from": "vary@>=1.1.0 <1.2.0",
+      "resolved": "http://r.tnpm.oa.com/vary/download/vary-1.1.0.tgz",
+      "dev": true
+    },
+    "vm-browserify": {
+      "version": "0.0.4",
+      "from": "vm-browserify@0.0.4",
+      "resolved": "http://r.tnpm.oa.com/vm-browserify/download/vm-browserify-0.0.4.tgz",
+      "dev": true
+    },
+    "warning": {
+      "version": "3.0.0",
+      "from": "warning@>=3.0.0 <4.0.0",
+      "resolved": "http://r.tnpm.oa.com/warning/download/warning-3.0.0.tgz"
+    },
+    "watchpack": {
+      "version": "1.3.1",
+      "from": "watchpack@>=1.2.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/watchpack/download/watchpack-1.3.1.tgz",
+      "dev": true
+    },
+    "wbuf": {
+      "version": "1.7.2",
+      "from": "wbuf@>=1.4.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/wbuf/download/wbuf-1.7.2.tgz",
+      "dev": true
+    },
+    "webpack": {
+      "version": "2.2.1",
+      "from": "webpack@>=2.2.1 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/webpack/download/webpack-2.2.1.tgz",
+      "dev": true,
+      "dependencies": {
+        "supports-color": {
+          "version": "3.2.3",
+          "from": "supports-color@>=3.1.0 <4.0.0",
+          "resolved": "http://r.tnpm.oa.com/supports-color/download/supports-color-3.2.3.tgz",
+          "dev": true
+        }
+      }
+    },
+    "webpack-dev-middleware": {
+      "version": "1.10.1",
+      "from": "webpack-dev-middleware@>=1.9.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/webpack-dev-middleware/download/webpack-dev-middleware-1.10.1.tgz",
+      "dev": true
+    },
+    "webpack-dev-server": {
+      "version": "2.4.2",
+      "from": "webpack-dev-server@>=2.4.1 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/webpack-dev-server/download/webpack-dev-server-2.4.2.tgz",
+      "dev": true,
+      "dependencies": {
+        "supports-color": {
+          "version": "3.2.3",
+          "from": "supports-color@>=3.1.1 <4.0.0",
+          "resolved": "http://r.tnpm.oa.com/supports-color/download/supports-color-3.2.3.tgz",
+          "dev": true
+        }
+      }
+    },
+    "webpack-sources": {
+      "version": "0.1.5",
+      "from": "webpack-sources@>=0.1.4 <0.2.0",
+      "resolved": "http://r.tnpm.oa.com/webpack-sources/download/webpack-sources-0.1.5.tgz",
+      "dev": true
+    },
+    "websocket-driver": {
+      "version": "0.6.5",
+      "from": "websocket-driver@>=0.5.1",
+      "resolved": "http://r.tnpm.oa.com/websocket-driver/download/websocket-driver-0.6.5.tgz",
+      "dev": true
+    },
+    "websocket-extensions": {
+      "version": "0.1.1",
+      "from": "websocket-extensions@>=0.1.1",
+      "resolved": "http://r.tnpm.oa.com/websocket-extensions/download/websocket-extensions-0.1.1.tgz",
+      "dev": true
+    },
+    "whatwg-fetch": {
+      "version": "2.0.3",
+      "from": "whatwg-fetch@>=0.10.0",
+      "resolved": "http://r.tnpm.oa.com/whatwg-fetch/download/whatwg-fetch-2.0.3.tgz"
+    },
+    "which-module": {
+      "version": "1.0.0",
+      "from": "which-module@>=1.0.0 <2.0.0",
+      "resolved": "http://r.tnpm.oa.com/which-module/download/which-module-1.0.0.tgz",
+      "dev": true
+    },
+    "window-size": {
+      "version": "0.1.0",
+      "from": "window-size@0.1.0",
+      "resolved": "http://r.tnpm.oa.com/window-size/download/window-size-0.1.0.tgz",
+      "dev": true
+    },
+    "wordwrap": {
+      "version": "0.0.2",
+      "from": "wordwrap@0.0.2",
+      "resolved": "http://r.tnpm.oa.com/wordwrap/download/wordwrap-0.0.2.tgz",
+      "dev": true
+    },
+    "wrap-ansi": {
+      "version": "2.1.0",
+      "from": "wrap-ansi@>=2.0.0 <3.0.0",
+      "resolved": "http://r.tnpm.oa.com/wrap-ansi/download/wrap-ansi-2.1.0.tgz",
+      "dev": true
+    },
+    "xtend": {
+      "version": "4.0.1",
+      "from": "xtend@>=4.0.0 <5.0.0",
+      "resolved": "http://r.tnpm.oa.com/xtend/download/xtend-4.0.1.tgz",
+      "dev": true
+    },
+    "y18n": {
+      "version": "3.2.1",
+      "from": "y18n@>=3.2.1 <4.0.0",
+      "resolved": "http://r.tnpm.oa.com/y18n/download/y18n-3.2.1.tgz",
+      "dev": true
+    },
+    "yargs": {
+      "version": "6.6.0",
+      "from": "yargs@>=6.0.0 <7.0.0",
+      "resolved": "http://r.tnpm.oa.com/yargs/download/yargs-6.6.0.tgz",
+      "dev": true,
+      "dependencies": {
+        "camelcase": {
+          "version": "3.0.0",
+          "from": "camelcase@>=3.0.0 <4.0.0",
+          "resolved": "http://r.tnpm.oa.com/camelcase/download/camelcase-3.0.0.tgz",
+          "dev": true
+        },
+        "cliui": {
+          "version": "3.2.0",
+          "from": "cliui@>=3.2.0 <4.0.0",
+          "resolved": "http://r.tnpm.oa.com/cliui/download/cliui-3.2.0.tgz",
+          "dev": true
+        }
+      }
+    },
+    "yargs-parser": {
+      "version": "4.2.1",
+      "from": "yargs-parser@>=4.2.0 <5.0.0",
+      "resolved": "http://r.tnpm.oa.com/yargs-parser/download/yargs-parser-4.2.1.tgz",
+      "dev": true,
+      "dependencies": {
+        "camelcase": {
+          "version": "3.0.0",
+          "from": "camelcase@>=3.0.0 <4.0.0",
+          "resolved": "http://r.tnpm.oa.com/camelcase/download/camelcase-3.0.0.tgz",
+          "dev": true
+        }
+      }
+    }
+  }
+}

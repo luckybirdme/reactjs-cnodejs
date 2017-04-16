@@ -1,0 +1,38 @@
+body{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+
+p{
+	margin: 0
+}
+
+img{
+	width: 100%;
+	height: height;
+}
+div{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	padding: 70px 10px 10px 10px;
+
+}
+
+.counterclockwise45 {
+	-moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.counterclockwise90 {
+	-moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
