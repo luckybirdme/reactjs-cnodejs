@@ -4,15 +4,15 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 import RefreshIndicator from 'material-ui/RefreshIndicator';
 import Divider from 'material-ui/Divider';
-import {Menu, MenuItem} from 'material-ui/Menu';
+import Menu from 'material-ui/Menu';
+import MenuItem from 'material-ui/MenuItem';
+
 import TextField from 'material-ui/TextField';
 import RaisedButton from 'material-ui/RaisedButton';
 import IconButton from 'material-ui/IconButton';
 import ContentReply from 'material-ui/svg-icons/content/reply';
 
 
-import Avatar from 'material-ui/Avatar';
-import {List, ListItem} from 'material-ui/List';
 import SelectField from 'material-ui/SelectField';
 
 import {
@@ -29,8 +29,12 @@ export default class CreateForm extends React.Component {
       title:'',
       content:''
     }
-    this.props.clearCreate()
     
+    
+  }
+
+  componentWillMount(){
+    this.props.clearCreate()
   }
 
 

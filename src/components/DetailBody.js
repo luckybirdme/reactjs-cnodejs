@@ -6,7 +6,8 @@ import TopicList from '../components/TopicList'
 
 import RefreshIndicator from 'material-ui/RefreshIndicator';
 import Divider from 'material-ui/Divider';
-import {Menu, MenuItem} from 'material-ui/Menu';
+import Menu from 'material-ui/Menu';
+import MenuItem from 'material-ui/MenuItem';
 import TextField from 'material-ui/TextField';
 import RaisedButton from 'material-ui/RaisedButton';
 import IconButton from 'material-ui/IconButton';
@@ -14,11 +15,11 @@ import ContentReply from 'material-ui/svg-icons/content/reply';
 
 
 import Avatar from 'material-ui/Avatar';
-import {List, ListItem} from 'material-ui/List';
-
+import List from 'material-ui/List';
+import ListItem from 'material-ui/List/ListItem';
 import {blue300} from 'material-ui/styles/colors';
 
-import Moment from 'react-moment';
+import tool from '../lib/tool'
 
 
 export default class DetailBody extends React.Component {
@@ -169,7 +170,7 @@ export default class DetailBody extends React.Component {
                         secondaryText={
                           <div style={style.ListItemText} >
                             <span style={style.secondaryText} >{item.author.loginname}</span>
-                            <Moment fromNow>{item.create_at}</Moment>
+                            {tool.getLastTime(item.create_at)}
 
                           </div>
                         }

@@ -1,7 +1,7 @@
 import {compose,createStore ,applyMiddleware} from 'redux'
 import reducers from './reducers/index'
 import thunkMiddleware from 'redux-thunk'
-import {createLogger} from 'redux-logger'
+//import {createLogger} from 'redux-logger'
 import {persistStore, autoRehydrate} from 'redux-persist'
 
 
@@ -9,7 +9,7 @@ import {persistStore, autoRehydrate} from 'redux-persist'
 
 
 export default function configureStore() {
-	const loggerMiddleware = createLogger()
+	//const loggerMiddleware = createLogger()
 
 	const store = createStore(
 		reducers,
@@ -17,7 +17,7 @@ export default function configureStore() {
 		compose(
 		    applyMiddleware(
 				thunkMiddleware,
-				loggerMiddleware
+				//loggerMiddleware
 			),
 		    autoRehydrate()
 		)

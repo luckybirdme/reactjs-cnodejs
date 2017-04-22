@@ -5,7 +5,8 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import RefreshIndicator from 'material-ui/RefreshIndicator';
 
 import Avatar from 'material-ui/Avatar';
-import {List, ListItem} from 'material-ui/List';
+import List from 'material-ui/List';
+import ListItem from 'material-ui/List/ListItem';
 import ContentReply from 'material-ui/svg-icons/content/reply';
 import Divider from 'material-ui/Divider';
 
@@ -20,7 +21,7 @@ import ActionHome from 'material-ui/svg-icons/action/home';
 
 import { Link } from 'react-router-dom'
 
-import Moment from 'react-moment';
+import tool from '../lib/tool'
 
 import {teal500, red500, greenA200,orange900,blueA700,pinkA400,cyan500} from 'material-ui/styles/colors';
 
@@ -104,7 +105,7 @@ export default class TopicList extends React.Component {
                   }
                   secondaryText={
                     <div style={style.ListItemText}>
-                      <Moment fromNow>{item.last_reply_at}</Moment> 
+                      {tool.getLastTime(item.last_reply_at)}
                       <span style={style.secondaryText}>{`${item.reply_count} comments`}</span>
 
                     </div>

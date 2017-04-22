@@ -1,17 +1,14 @@
 const webpack = require('webpack')
 const path = require('path')
-
+const WebpackBundleSizeAnalyzerPlugin = require('webpack-bundle-size-analyzer').WebpackBundleSizeAnalyzerPlugin
 module.exports = {
-  devtool: false,
+  devtool: 'source-map',
   entry: {
-    'app': [
-      'react-hot-loader/patch',
-      './src/index'
-    ]
+    'app':'./src/index'
   },
   output: {
     path: path.resolve(__dirname, './dist'),
-    filename: 'bundle.js'
+    filename: '[name].js'
   },
   module: {
     rules: [
@@ -28,19 +25,24 @@ module.exports = {
     ]
   },
   plugins: [
-    new webpack.optimize.OccurrenceOrderPlugin(),
+
+
+    new webpack.LoaderOptionsPlugin({
+        minimize: true,
+        debug: false
+    }),
     new webpack.DefinePlugin({
-      'process.env': {
-        'NODE_ENV': JSON.stringify('production')
-      }
+        'process.env': {
+            'NODE_ENV': JSON.stringify('production')
+        }
     }),
-    new webpack.optimize.UglifyJsPlugin({
-      compressor: {
-        warnings: false
-      }
-    }),
-    new webpack.optimize.DedupePlugin(), //dedupe similar code 
-    new webpack.optimize.AggressiveMergingPlugin(),//Merge chunks
-    new webpack.NoErrorsPlugin()
+    new webpack.optimize.UglifyJsPlugin(),
+
+    new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
+
+    new WebpackBundleSizeAnalyzerPlugin('./plain-report.txt')
+
+
+
   ],
 }

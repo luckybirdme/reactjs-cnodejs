@@ -4,11 +4,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import Header from '../components/Header'
 import DetailBody from '../components/DetailBody'
 
-import RefreshIndicator from 'material-ui/RefreshIndicator';
-import Divider from 'material-ui/Divider';
-import {Menu, MenuItem} from 'material-ui/Menu';
 
-import {blue300} from 'material-ui/styles/colors';
 import { connect } from 'react-redux'
 import { saveUser,todoStatus,doingStatus,doneStatus,saveTopic } from '../store/actions'
 

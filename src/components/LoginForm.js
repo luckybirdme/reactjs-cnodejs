@@ -76,7 +76,6 @@ export default class LoginForm extends React.Component {
 				      hintStyle={{"width":"100%"}}
 				      fullWidth={true}
 				      style={{textAlign:'center',marginBottom:30}}
-				      inputStyle={{padding:10}}
 				      onChange={this.handleChange}
 				      errorText={errorText}
 				    />

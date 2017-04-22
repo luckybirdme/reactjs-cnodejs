@@ -6,7 +6,6 @@ import TopicList from '../components/TopicList'
 
 import RefreshIndicator from 'material-ui/RefreshIndicator';
 import Divider from 'material-ui/Divider';
-import {Menu, MenuItem} from 'material-ui/Menu';
 import TextField from 'material-ui/TextField';
 import RaisedButton from 'material-ui/RaisedButton';
 import IconButton from 'material-ui/IconButton';
@@ -14,14 +13,17 @@ import ContentReply from 'material-ui/svg-icons/content/reply';
 
 
 import Avatar from 'material-ui/Avatar';
-import {List, ListItem} from 'material-ui/List';
+import List from 'material-ui/List';
+import ListItem from 'material-ui/List/ListItem';
 import { Link,Redirect } from 'react-router-dom'
 
 
-import {Tabs, Tab} from 'material-ui/Tabs';
+import Tabs from 'material-ui/Tabs';
+import Tab from 'material-ui/Tabs/Tab';
+
 import Slider from 'material-ui/Slider';
 
-import Moment from 'react-moment';
+import tool from '../lib/tool'
 
 
 export default class UserPage extends React.Component {
@@ -107,7 +109,7 @@ export default class UserPage extends React.Component {
                 </p>
                 <p style={style.account_info}>
                   <span style={style.secondaryText} >{account.loginname}</span>
-                  <Moment format="YYYY-MM-DD" >{account.create_at}</Moment>
+                  {tool.getLastTime(account.create_at)}
                 </p>
               </div>
 
@@ -123,7 +125,7 @@ export default class UserPage extends React.Component {
                               secondaryText={
                                 <div>
                                   <span style={style.secondaryText} >{item.author.loginname}</span>
-                                  <Moment fromNow>{item.last_reply_at}</Moment> 
+                                  {tool.getLastTime(item.last_reply_at)} 
 
                                 </div>
                               }
@@ -146,7 +148,7 @@ export default class UserPage extends React.Component {
                               secondaryText={
                                 <div>
                                   <span style={style.secondaryText} >{item.author.loginname}</span>
-                                  <Moment fromNow>{item.last_reply_at}</Moment> 
+                                  {tool.getLastTime(item.last_reply_at)}
 
                                 </div>
                               }
