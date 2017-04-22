@@ -37,9 +37,6 @@ module.exports = {
         }
     }),
     new webpack.optimize.UglifyJsPlugin(),
-
-    new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
-
     new WebpackBundleSizeAnalyzerPlugin('./plain-report.txt')
 
 
