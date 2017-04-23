@@ -34,13 +34,15 @@ export default class DetailBody extends React.Component {
 
   handleChange = (event) => {
       this.setState({replyContent: event.target.value});
-      this.goToBottom()
   }
 
   componentWillMount() {
+    this.setState({replyAction:false})
     let id = this.props.match.params.id
     this.props.showTopicDetail(id)
-    this.goToTop();
+  }
+  componentDidMount(){
+    this.goToTop()
   }
 
   goToTop(){
@@ -92,33 +94,59 @@ export default class DetailBody extends React.Component {
 
     let replyContent = this.state.replyContent
 
-    this.props.replyTopic(replyContent)
     this.setState({replyAction:true});
+
+    this.props.replyTopic(replyContent)
+    
 
     
   }
 
-  shouldComponentUpdate(nextProps){
-    if(this.state.replyContent){
-      this.goToBottom()
-      this.setState({replyAction:false})
-      this.setState({replyContent:''})
-    }
+  shouldComponentUpdate(nextProps,nextState){
     return true
   }
 
+  componentWillReceiveProps(nextProps){
+    let done = nextProps.status.done
+    let error = nextProps.status.error
+
+    if(done && error==''){
+      this.setState({replyContent:''})
+    }
+
+
+
+  }
+
+  componentDidUpdate(){
+    let replyAction = this.state.replyAction
+    if(replyAction){
+      this.goToBottom()
+    }
+  }
 
 
   render(){
 
     const status = this.props.status
     const errorText = status.error
+    let replyAction = this.state.replyAction
     let loadStatus = 'loading'
     let done = status.done
     let doing = status.doing
     if(done){
       loadStatus = 'hide'
     }
+
+    let hideTopic = true
+    if(done){
+      hideTopic = false
+    }
+
+    if(replyAction){
+      hideTopic = false
+    }
+
     let topicData = []
     let replyNumber = 0
     let detail = {}
@@ -169,7 +197,7 @@ export default class DetailBody extends React.Component {
     return (
       <MuiThemeProvider>
         <div>
-            <div style={done ? style.displayBlock:style.displayNone}> 
+            <div style={hideTopic ? style.displayNone:style.displayBlock}> 
               <TopicList topic={topicData} {...this.props}/>
               
               <div className="markdown-body" dangerouslySetInnerHTML={this.createMarkup(detail.content)} />

@@ -19,7 +19,7 @@ export default class BodyPage extends React.Component {
 
 	showTopic = (page,tab) => {
 		this.props.showTopic(tab)
-		window.scrollTo(0, 0)
+		
 	}
 
 	componentDidMount(){
@@ -38,11 +38,13 @@ export default class BodyPage extends React.Component {
 				if(tab && oldTab != tab){
 					this.showTopic(0,tab)
 					shouldUpdate = false
+					window.scrollTo(0, 0)
 				}
 			}
 		}else{
 			this.showTopic()
 			shouldUpdate = false
+			window.scrollTo(0, 0)
 		}
 		return shouldUpdate
 	}
