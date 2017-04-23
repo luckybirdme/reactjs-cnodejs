@@ -110,7 +110,7 @@ export default class DetailBody extends React.Component {
     let done = nextProps.status.done
     let error = nextProps.status.error
 
-    if(done && error==''){
+    if(done){
       if(error){
         this.setState({replyAction:false})
       }else{

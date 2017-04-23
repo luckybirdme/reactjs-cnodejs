@@ -50,4 +50,4 @@
 .1.0.0@isarray: 132 B (0.00741%)
 .0.0.1@isarray: 120 B (0.00673%)
 .15.5.2@react-addons-transition-group: 59 B (0.00331%)
-<self>: 120.91 KB (6.95%)
+<self>: 120.9 KB (6.95%)
