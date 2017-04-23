@@ -98,15 +98,6 @@ export default class DetailBody extends React.Component {
     
   }
 
-/*  componentDidUpdate(prevProps, prevState){
-    if(prevState.replyContent){
-      this.goToBottom()
-      this.setState({replyAction:false});
-    }
-
-    
-  }*/
-
   shouldComponentUpdate(nextProps){
     if(this.state.replyContent){
       this.goToBottom()

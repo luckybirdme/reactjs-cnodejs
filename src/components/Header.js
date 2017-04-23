@@ -65,6 +65,12 @@ class head extends React.Component {
 		this.props.history.push('/login')
 	}
 
+	userinfo = () => {
+		this.handleClose()
+		const loginname = this.props.user.loginname
+		let url = '/user/'+loginname
+		this.props.history.push(url)
+	}
 	render(){
 
 
@@ -109,9 +115,8 @@ class head extends React.Component {
 						        
 						    </div>
 					        <div style={logoutStyle}>
-						        <Link to={`/user/${user.loginname}`}>
-						        	<MenuItem primaryText={user.loginname} leftIcon={<ActionAccountCircle />} />
-						        </Link>
+						        <MenuItem onTouchTap={this.userinfo} primaryText={user.loginname} leftIcon={<ActionAccountCircle />} />
+						        
 
 						        <MenuItem onTouchTap={this.logout} primaryText='退出' leftIcon={<SubdirectoryArrowLeft />} />
 						        
