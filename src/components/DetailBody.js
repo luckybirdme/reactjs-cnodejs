@@ -169,7 +169,7 @@ export default class DetailBody extends React.Component {
     return (
       <MuiThemeProvider>
         <div>
-            <div> 
+            <div style={done ? style.displayBlock:style.displayNone}> 
               <TopicList topic={topicData} {...this.props}/>
               
               <div className="markdown-body" dangerouslySetInnerHTML={this.createMarkup(detail.content)} />
