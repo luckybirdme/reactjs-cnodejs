@@ -27,7 +27,8 @@ export default class DetailBody extends React.Component {
     super(props);
     this.state = {
       errorText:'',
-      replyContent:''
+      replyContent:'',
+      replyAction:false
     }
   }
 
@@ -36,8 +37,7 @@ export default class DetailBody extends React.Component {
       this.goToBottom()
   }
 
-  componentDidMount() {
-    
+  componentWillMount() {
     let id = this.props.match.params.id
     this.props.showTopicDetail(id)
     this.goToTop();
@@ -65,25 +65,55 @@ export default class DetailBody extends React.Component {
   }
 
   clickReply = () => {
+    if(!this.login()){
+      return false
+    }
     this.goToBottom()
 
   }
 
-  replyTopic = () => {
-
+  login = () => {
     let user = this.props.user
     if(!user || Object.keys(user).length <=0){
-      this.props.history.push('/login')
-      return;
+      let uri = this.props.location.pathname
+      this.props.history.push('/login',{fromUri:uri})
+      return false
+    }else{
+      return true
+    }
+    
+  }
+
+  replyTopic = () => {
+
+    if(!this.login()){
+      return false
     }
 
     let replyContent = this.state.replyContent
 
     this.props.replyTopic(replyContent)
-
-    this.setState({replyContent: ''});
+    this.setState({replyAction:true});
 
     
+  }
+
+/*  componentDidUpdate(prevProps, prevState){
+    if(prevState.replyContent){
+      this.goToBottom()
+      this.setState({replyAction:false});
+    }
+
+    
+  }*/
+
+  shouldComponentUpdate(nextProps){
+    if(this.state.replyContent){
+      this.goToBottom()
+      this.setState({replyAction:false})
+      this.setState({replyContent:''})
+    }
+    return true
   }
 
 

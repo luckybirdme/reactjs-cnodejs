@@ -5,6 +5,7 @@ import {
   Link
 } from 'react-router-dom'
 
+
 import Home from './Home'
 import About from './About'
 import Login from './Login'
@@ -57,12 +58,13 @@ const routes = [
   }
 ]
 
+
 export default () => (
   <BrowserRouter>
     <div>
       {routes.map((route, i) => (
         <Route key={i} exact={route.exact} path={route.path} render={props => (
-			  	<route.component {...props} routeName={route.name}/>
+			  	<route.component {...props} routeName={route.name} />
 			  )}/>
       ))}
     </div>

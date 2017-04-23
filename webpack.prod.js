@@ -36,7 +36,15 @@ module.exports = {
             'NODE_ENV': JSON.stringify('production')
         }
     }),
-    new webpack.optimize.UglifyJsPlugin(),
+    new webpack.optimize.UglifyJsPlugin({
+      output: {
+        comments: false,  // remove all comments
+      },
+      compress: {
+        warnings: false
+      }
+    }),
+
     new WebpackBundleSizeAnalyzerPlugin('./plain-report.txt')
 
 

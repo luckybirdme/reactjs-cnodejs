@@ -27,21 +27,29 @@ export default class LoginForm extends React.Component {
 		this.props.login(AccessToken)
 	}
 
-	render(){
-
+	goBack = () => {
 		const user = this.props.user
 		if(user && Object.keys(user).length > 0){
-
-			const { from } = this.props.location.state || { from: { pathname: '/' } }
-		    
-		    return (
-		        <Redirect to={from}/>
-		    )
-		    
+			let uri = this.props.location.state.fromUri
+			this.props.history.push(uri)
 		}
+	}
+	componentWillMount(){
+		this.goBack()
+	}
+
+	shouldComponentUpdate(nextProps){
+		this.goBack()
+		return true
+	}
+
+	render(){
+
 
 		const errorText = this.props.status.error
 		const doing = this.props.status.doing
+
+
 
 		let loadStatus = 'hide'
 		if(doing){

@@ -49,18 +49,20 @@ class head extends React.Component {
 	}
 
 	touchCreate = () => {
-		const user = this.props.user
-		if(user && Object.keys(user).length > 0){
-			this.props.history.push('/create')
-		}else{
-			this.props.history.push('/login')
-		}
-		
+		this.handleClose()
+		this.props.history.push('/create')
 	};
 
+	login = () => {
+		this.handleClose()
+		let uri = this.props.location.pathname
+		this.props.history.push('/login',{fromUri:uri})
+	}
+
 	logout = () => {
+		this.handleClose()
 		this.props.clearUser()
-		this.props.history.push('/')
+		this.props.history.push('/login')
 	}
 
 	render(){
@@ -103,9 +105,8 @@ class head extends React.Component {
 			        >
 					      <Menu>
 					      	<div  style={loginStyle}>
-						      	<Link to="/login">
-						        	<MenuItem primaryText="登录" leftIcon={<SocialPersonOutline />} />
-						        </Link>
+						        <MenuItem onTouchTap={this.login} primaryText="登录" leftIcon={<SocialPersonOutline />} />
+						        
 						    </div>
 					        <div style={logoutStyle}>
 						        <Link to={`/user/${user.loginname}`}>

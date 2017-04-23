@@ -49,12 +49,28 @@ export default class CreateForm extends React.Component {
   handleChangeContent = (event) => {
     this.setState({content: event.target.value});
   }
-  createTopic = () => {
-    
+
+
+  login = () => {
     let user = this.props.user
     if(!user || Object.keys(user).length <=0){
-      this.props.history.push('/login')
-      return;
+      let uri = this.props.location.pathname
+      this.props.history.push('/login',{fromUri:uri})
+      return false
+    }else{
+      return true
+    }
+  }
+
+  componentWillMount(){
+    this.login()
+  }
+
+
+  createTopic = () => {
+    
+    if(!this.login()){
+      return false
     }
 
     let topic = {
